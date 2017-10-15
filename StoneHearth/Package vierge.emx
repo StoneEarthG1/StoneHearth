@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
-<!--Rational Software Architect Designer 9.5-->
+<!--Rational Software Architect Designer 9.6-->
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Standard="http://www.eclipse.org/uml2/schemas/Standard/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http://www.eclipse.org/uml2/schemas/Standard/1 pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:Standard="http://www.eclipse.org/uml2/schemas/Standard/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default? http://www.eclipse.org/uml2/schemas/Standard/1 pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w">
   <uml:Package xmi:id="_8s9HMKnYEeefb59lDY5vmA" name="Analyse">
-    <eAnnotations xmi:id="_8s9HManYEeefb59lDY5vmA" source="uml2.diagrams" references="_8s9HMqnYEeefb59lDY5vmA">
-      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_8s9HMqnYEeefb59lDY5vmA" type="Freeform" name="Main"/>
+    <eAnnotations xmi:id="_8s9HManYEeefb59lDY5vmA" source="uml2.diagrams">
       <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_G5QCcKnhEeefb59lDY5vmA" type="Usecase" name="DiagrammeCasUtilisation1">
         <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_QLYVIKnhEeefb59lDY5vmA" element="_QLTcoKnhEeefb59lDY5vmA" fontName="Cantarell" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
           <children xmi:type="notation:DecorationNode" xmi:id="_QLaKUKnhEeefb59lDY5vmA" type="ImageCompartment">
@@ -79,16 +78,6 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_3t1WRqniEeefb59lDY5vmA" type="Parent"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_3t1WR6niEeefb59lDY5vmA" visible="false" type="Extension_Points"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3t1WQaniEeefb59lDY5vmA" x="7894" y="6865"/>
-            </children>
-            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_3t3LcKniEeefb59lDY5vmA" element="_bCj6EKnhEeefb59lDY5vmA" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-              <children xmi:type="notation:DecorationNode" xmi:id="_3t3LcqniEeefb59lDY5vmA" type="ImageCompartment">
-                <layoutConstraint xmi:type="notation:Size" xmi:id="_3t3Lc6niEeefb59lDY5vmA" width="2216" height="1322"/>
-              </children>
-              <children xmi:type="notation:BasicDecorationNode" xmi:id="_3t3ygKniEeefb59lDY5vmA" type="Stereotype"/>
-              <children xmi:type="notation:BasicDecorationNode" xmi:id="_3t3yganiEeefb59lDY5vmA" type="Name"/>
-              <children xmi:type="notation:BasicDecorationNode" xmi:id="_3t3ygqniEeefb59lDY5vmA" type="Parent"/>
-              <children xmi:type="notation:ListCompartment" xmi:id="_3t3yg6niEeefb59lDY5vmA" visible="false" type="Extension_Points"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3t3LcaniEeefb59lDY5vmA" x="8158" y="8581"/>
             </children>
             <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_3t5nsKniEeefb59lDY5vmA" element="_c0ACgKnhEeefb59lDY5vmA" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
               <children xmi:type="notation:DecorationNode" xmi:id="_3t5nsqniEeefb59lDY5vmA" type="ImageCompartment">
@@ -341,46 +330,6 @@
             <layoutConstraint xmi:type="notation:Location" xmi:id="_ZTv896njEeefb59lDY5vmA" y="1058"/>
           </children>
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZTuu0anjEeefb59lDY5vmA" points="[-21, 6, 203, -38]$[-219, 51, 5, 7]"/>
-        </edges>
-        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_aPRxEKnjEeefb59lDY5vmA" element="_aPOtwKnjEeefb59lDY5vmA" source="_3t3LcKniEeefb59lDY5vmA" target="_SnE7gKnhEeefb59lDY5vmA" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
-          <children xmi:type="notation:DecorationNode" xmi:id="_aPRxEqnjEeefb59lDY5vmA" type="NameLabel">
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_aPSYIKnjEeefb59lDY5vmA" type="Stereotype"/>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_aPSYIanjEeefb59lDY5vmA" type="Name"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aPRxE6njEeefb59lDY5vmA" y="-186"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_aPSYIqnjEeefb59lDY5vmA" visible="false" type="ToMultiplicityLabel" element="_aPP74KnjEeefb59lDY5vmA">
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_aPSYJKnjEeefb59lDY5vmA" type="ToMultiplicity"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_aPSYI6njEeefb59lDY5vmA" y="396"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_aPSYJanjEeefb59lDY5vmA" visible="false" type="ToRoleLabel" element="_aPP74KnjEeefb59lDY5vmA">
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_aPSYJ6njEeefb59lDY5vmA" type="ToRole"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_aPSYJqnjEeefb59lDY5vmA" y="-397"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_aPSYKKnjEeefb59lDY5vmA" visible="false" type="FromMultiplicityLabel" element="_aPPU0KnjEeefb59lDY5vmA">
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_aPSYKqnjEeefb59lDY5vmA" type="FromMultiplicity"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_aPSYKanjEeefb59lDY5vmA" y="396"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_aPSYK6njEeefb59lDY5vmA" visible="false" type="FromRoleLabel" element="_aPPU0KnjEeefb59lDY5vmA">
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_aPSYLanjEeefb59lDY5vmA" type="FromRole"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_aPSYLKnjEeefb59lDY5vmA" y="-397"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_aPSYLqnjEeefb59lDY5vmA" type="ToQualifierLabel" element="_aPP74KnjEeefb59lDY5vmA">
-            <children xmi:type="notation:SemanticListCompartment" xmi:id="_aPSYMKnjEeefb59lDY5vmA" type="QualifierCompartment"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_aPSYL6njEeefb59lDY5vmA" y="-186"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_aPS_MKnjEeefb59lDY5vmA" type="FromQualifierLabel" element="_aPPU0KnjEeefb59lDY5vmA">
-            <children xmi:type="notation:SemanticListCompartment" xmi:id="_aPS_MqnjEeefb59lDY5vmA" type="QualifierCompartment"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_aPS_ManjEeefb59lDY5vmA" y="-186"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_aPS_M6njEeefb59lDY5vmA" type="ToConstraintLabel" element="_aPP74KnjEeefb59lDY5vmA">
-            <children xmi:type="notation:ListCompartment" xmi:id="_aPS_NanjEeefb59lDY5vmA" type="ToConstraintCompartment"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_aPS_NKnjEeefb59lDY5vmA" y="1058"/>
-          </children>
-          <children xmi:type="notation:DecorationNode" xmi:id="_aPS_NqnjEeefb59lDY5vmA" type="FromConstraintLabel" element="_aPPU0KnjEeefb59lDY5vmA">
-            <children xmi:type="notation:ListCompartment" xmi:id="_aPS_OKnjEeefb59lDY5vmA" type="FromConstraintCompartment"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_aPS_N6njEeefb59lDY5vmA" y="1058"/>
-          </children>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_aPRxEanjEeefb59lDY5vmA" points="[-21, 3, 208, -9]$[-224, 20, 5, 8]"/>
         </edges>
         <edges xmi:type="umlnotation:UMLConnector" xmi:id="_a0TJsKnjEeefb59lDY5vmA" element="_a0QGYKnjEeefb59lDY5vmA" source="_3t5nsKniEeefb59lDY5vmA" target="_SnE7gKnhEeefb59lDY5vmA" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
           <children xmi:type="notation:DecorationNode" xmi:id="_a0TJsqnjEeefb59lDY5vmA" type="NameLabel">
@@ -1094,29 +1043,41 @@
     <packageImport xmi:id="_8s9HM6nYEeefb59lDY5vmA">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_J0frkKnhEeefb59lDY5vmA" name="Actor1"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_QLTcoKnhEeefb59lDY5vmA" name="Visiteur"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_SnDtYKnhEeefb59lDY5vmA" name="Joueur"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_UkKTQKnhEeefb59lDY5vmA" name="Créer compte" subject="_dFBEkKniEeefb59lDY5vmA _xgHPwKniEeefb59lDY5vmA">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_UkKTQKnhEeefb59lDY5vmA" name="Créer compte" subject="_xgHPwKniEeefb59lDY5vmA">
+      <ownedComment xmi:id="_QlSE0LHiEeel66c-mKx7cw" annotatedElement="_UkKTQKnhEeefb59lDY5vmA">
+        <body>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>UC01:&quot;Créer compte&quot;.&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>&lt;u>Date de création&lt;/u>&lt;/span>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>: 12/10/2017&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>&lt;u>Responsable&lt;/u>: M. Bonnier&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>Version 1.0&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;&quot;> &lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>&lt;u>Description &lt;/u>: Un visiteur souhaite créer un compte pour pouvoir jouer.&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>&lt;u>Acteur&lt;/u> : Visiteur&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>&lt;u>Préconditions&lt;/u> : Aucune&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>&lt;u>Séquence nominale &lt;/u>:&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>          1. L'utilisateur clique sur &quot;Créer compte&quot;&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>          2. Le système affiche un formulaire de renseignements concernant la personne&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>          3. Le visiteur saisit ses informations dans les champs étoilés et clique sur &quot;valider&quot;&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>          4. Le système affiche un formulaire de saisie d'identifiant de jeu et deux champs mot de passe (1 champ normal + 1 champ confirmation)&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>          5. L'utilisateur saisit son identifiant et les champs mot de passe et clique sur &quot;valider&quot;&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>          6. Le système enregistre les informations de l'utilisateur et créer le compte à l'aide de l'identifiant et du mot de passe&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>          7. Le système affiche un message de confirmation de création du compte&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;&quot;> &lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>&lt;u>Enchaînements alternatifs&lt;/u>:&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>A1: En SN2, l’utilisateur clique sur « saisir ses coordonnées bancaires »:&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>          1.  Appel du cas « UC13: Renseigner cordonnées bancaires »&lt;/span>&lt;/p>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>    2. Retour en SN2 &lt;/span>&lt;/p>&lt;/blockquote>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>A2: En SN3, l'utilisateur n'a pas saisi toutes les informations nécessaires:&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>          1. Le système affiche un message invitant l'utilisateur à saisir les informations manquantes&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>          2. Retour en SN3&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>A3: En SN5, l'utilisateur n'a pas saisi un identifiant de jeu valide et/ou disponible:&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>          1. Le système affiche un message invitant l'utilisateur à changer son identifiant&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>          2. Retour en SN5&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>A4: En SN5, l'utilisateur n'a pas saisi un mot de passe valide:&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>          1. Le système affiche un message invitant l'utilisateur à changer son mot de passe&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>          2. Retour en SN5&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>A5: En SN5, l'utilisateur n'a pas saisi le même mot de passe dans les deux champs&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>          1. Le système affiche un message invitant l'utilisateur saisir de nouveau le mot de passe&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>          2. Retour en SN5&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;&quot;> &lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>&lt;u>Enchaînements d'exception&lt;/u>:&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>E1: En SN3, SN5, l'utilisateur clique sur &quot;Annuler&quot;:&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>          1. Le système affiche la page d'accueil&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;&quot;> &lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>&lt;u>Post-conditions&lt;/u>:&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>Le système a enregistré les informations suivantes:&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>          * Les renseignements concernant l’utilisateur&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Helvetica;&quot;>          * L’identifiant et le mot de passe de l’utilisateur&lt;/span>&lt;/p></body>
+      </ownedComment>
       <extensionPoint xmi:id="_A6cFMKniEeefb59lDY5vmA" name="ExtensionPoint1"/>
       <extensionPoint xmi:id="_SFPu4KnjEeefb59lDY5vmA" name="ExtensionPoint2"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_WdfMYKnhEeefb59lDY5vmA" name="Se connecter" subject="_dFBEkKniEeefb59lDY5vmA _xgHPwKniEeefb59lDY5vmA"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_X2cjYKnhEeefb59lDY5vmA" name="Se déconnecter" subject="_dFBEkKniEeefb59lDY5vmA _xgHPwKniEeefb59lDY5vmA"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_Z5FJgKnhEeefb59lDY5vmA" name="Jouer" subject="_dFBEkKniEeefb59lDY5vmA _xgHPwKniEeefb59lDY5vmA"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_bCj6EKnhEeefb59lDY5vmA" name="Ouvrir pack" subject="_dFBEkKniEeefb59lDY5vmA _xgHPwKniEeefb59lDY5vmA"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_c0ACgKnhEeefb59lDY5vmA" name="Gérer les decks" subject="_dFBEkKniEeefb59lDY5vmA _xgHPwKniEeefb59lDY5vmA"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_e45ScKnhEeefb59lDY5vmA" name="Détruire carte" subject="_dFBEkKniEeefb59lDY5vmA _xgHPwKniEeefb59lDY5vmA"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_g0L6cKnhEeefb59lDY5vmA" name="Acheter pack" subject="_dFBEkKniEeefb59lDY5vmA _xgHPwKniEeefb59lDY5vmA"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_ij-dEKnhEeefb59lDY5vmA" name="Acheter un emplacement de deck" subject="_dFBEkKniEeefb59lDY5vmA _xgHPwKniEeefb59lDY5vmA"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_mb1fcKnhEeefb59lDY5vmA" name="Acheter carte" subject="_dFBEkKniEeefb59lDY5vmA _xgHPwKniEeefb59lDY5vmA"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_oOz48KnhEeefb59lDY5vmA" name="Renseigner coordonnées bancaires" subject="_dFBEkKniEeefb59lDY5vmA _xgHPwKniEeefb59lDY5vmA">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_WdfMYKnhEeefb59lDY5vmA" name="Se connecter" subject="_xgHPwKniEeefb59lDY5vmA">
+      <ownedComment xmi:id="_TGQP8LHmEeel66c-mKx7cw" annotatedElement="_WdfMYKnhEeefb59lDY5vmA">
+        <body>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>UC02: « Se connecter »&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Date de création&lt;/u>: 15/10/2017&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Responsable&lt;/u>: M. Bonnier&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>Version 1.0&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;> &lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Description&lt;/u>: Un visiteur souhaite se connecter pour pouvoir jouer.&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Acteur&lt;/u>: Visiteur&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Préconditions&lt;/u>: Aucune&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;> &lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Séquencement nominal&lt;/u>:&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>          1. L'utilisateur clique sur « Log in »&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>          2. Le système affiche un formulaire de saisie d’identifiant et mot de passe&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>          3. Le visiteur saisit son identifiant et mot de passe et clique sur « Connexion » &lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>          4. Le système vérifie que le couple identifiant/mot de passe existe&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>          5. Le système affiche la page principale du jeu&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;> &lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Enchaînements alternatifs&lt;/u>:&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>A1: En SN4, le système ne trouve pas de couple corresspondant (erreur sur la saisie des informations de connexion):&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>          1.  Le système affiche un message d’erreur&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>          2. Retour en SN3&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;> &lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Enchaînements d'exception&lt;/u>:&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>E1: En SN3, l'utilisateur clique sur &quot;Annuler&quot;:&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>          1. Le système affiche la page d'accueil&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;> &lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Post-conditions&lt;/u>: &lt;/span>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>Aucune&lt;/span>&lt;/p></body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_X2cjYKnhEeefb59lDY5vmA" name="Se déconnecter" subject="_xgHPwKniEeefb59lDY5vmA"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Z5FJgKnhEeefb59lDY5vmA" name="Jouer" subject="_xgHPwKniEeefb59lDY5vmA"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_c0ACgKnhEeefb59lDY5vmA" name="Gérer les decks" subject="_xgHPwKniEeefb59lDY5vmA">
+      <ownedComment xmi:id="_Zzu5wK9jEee6Su47KRuvbw" annotatedElement="_c0ACgKnhEeefb59lDY5vmA">
+        <body>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Nom &lt;/u>: UC0?, Gérer Deck&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Date de création&lt;/u> : 12/10/2017&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Version &lt;/u>: 1.0&lt;/span>&lt;/p>&lt;p>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Description &lt;/u>: Le joueur souhaite modifier un deck&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Acteur &lt;/u>: Joueur&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Préconditions &lt;/u>: Aucunes&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Scénario Nominal &lt;/u>:&lt;/span>&lt;/p>&lt;ol>&lt;li>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>Le joueur clique sur le bouton &quot;gérer les decks&quot;&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>Le système affiche la page de gestion des decks&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>Le joueur sélectionne le deck qu'il souhaite modifier et valide&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>Le système affiche le deck courant&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>Le système sauvegarde le deck avant toute modification&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>Le joueur sélectionne une carte à échanger et clique sur &quot;supprimer la carte du deck&quot;&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>Le système supprime la carte du deck&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>Le joueur clique sur &quot;ajouter une carte&quot;&lt;/span>&lt;/li>&lt;li>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>Le système propose les cartes que le joueur peut ajouter à son deck&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>Le joueur sélectionne la carte qu'il souhaite ajouter à son deck&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>Le système demande confirmation en afichant &quot;Ajouter cette carte au deck ?&quot;&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>Le joueur valide l'ajout de la carte&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>Le système ajoute la carte au deck&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>Le joueur valide son deck&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>Le système vérifie la validité du deck&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>Le système affiche la page d'accueil&lt;/span>&lt;/p>&lt;/li>&lt;/ol>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Alternatives et Exceptions&lt;/u> :&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>A1 : Le joueur ne valide pas l'ajout de la carte dans le deck et souhaite en sélectionner une autre (SN12)&lt;/span>&lt;/p>&lt;blockquote>&lt;ol>&lt;li>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>retour en SN9&lt;/span>&lt;/p>&lt;/li>&lt;/ol>&lt;/blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>E1 : Le deck n'est pas valide (SN15)&lt;/span>&lt;/p>&lt;blockquote>&lt;ol>&lt;li>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>Le système restaure le deck&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>fin&lt;/span>&lt;/p>&lt;/li>&lt;/ol>&lt;/blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>E2 : Le joueur annule (SN6-12-14)&lt;/span>&lt;/p>&lt;blockquote>&lt;ol>&lt;li>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>Le système restaure le deck&lt;/span>&lt;/p>&lt;/li>&lt;li>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>fin&lt;/span>&lt;/p>&lt;/li>&lt;/ol>&lt;/blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Postconditions &lt;/u>:&lt;/span>&lt;/p>&lt;ul>&lt;li>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>Le système a enregistré le deck&lt;/span>&lt;/p>&lt;/li>&lt;/ul>&lt;p>&lt;/p></body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_e45ScKnhEeefb59lDY5vmA" name="Détruire carte" subject="_xgHPwKniEeefb59lDY5vmA"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_g0L6cKnhEeefb59lDY5vmA" name="Acheter pack" subject="_xgHPwKniEeefb59lDY5vmA"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ij-dEKnhEeefb59lDY5vmA" name="Acheter un emplacement de deck" subject="_xgHPwKniEeefb59lDY5vmA"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mb1fcKnhEeefb59lDY5vmA" name="Acheter carte" subject="_xgHPwKniEeefb59lDY5vmA"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_oOz48KnhEeefb59lDY5vmA" name="Renseigner coordonnées bancaires" subject="_xgHPwKniEeefb59lDY5vmA">
+      <ownedComment xmi:id="_2fhVgLHkEeel66c-mKx7cw" annotatedElement="_oOz48KnhEeefb59lDY5vmA">
+        <body>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>UC13: « Renseigner ses coordonnées bancaires » .&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Date de création&lt;/u>: 15/10/2017&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Responsable&lt;/u>: M. Bonnier&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>Version 1.0&lt;/span>&lt;/p>&lt;p>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Description&lt;/u>: Un visiteur souhaite se connecter pour pouvoir jouer.&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Acteur&lt;/u>&lt;u>s&lt;/u>: Visiteur, Joueur&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Préconditions&lt;/u>:&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>          * Le joueur (ou visiteur) a cliqué sur « Renseigner coordonnées bancaires »&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>          * Le système a affiché le formulaire de renseignement des données bancaires &lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;> &lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Séquencement nominal&lt;/u>:&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>          1. L'utilisateur saisit ses coordonnées bancaires dans les différents champs et clique sur « valider »&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>          2. Le système enregistre les données bancaires&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>          2. Le système affiche un message temporaire de validation d’enregistrement des données&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;> &lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Enchaînements d'exception&lt;/u>:&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>E1: En SN1, l'utilisateur clique sur &quot;Annuler&quot;:&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>          1. Le système affiche la page précédent le clic sur « Renseigner coordonnées bancaires »&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;> &lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Post-conditions&lt;/u>:&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>Le système a enregistré les informations suivantes:&lt;/span>&lt;/p>&lt;p class=&quot;MsoNormal&quot;>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>          * Les données bancaires de l’utilisateur&lt;/span>&lt;/p></body>
+      </ownedComment>
       <extend xmi:id="__QfE0KnhEeefb59lDY5vmA" extendedCase="_qS4pgKnhEeefb59lDY5vmA" extensionLocation="__QivMKnhEeefb59lDY5vmA"/>
       <extend xmi:id="_A6beIKniEeefb59lDY5vmA" extendedCase="_UkKTQKnhEeefb59lDY5vmA" extensionLocation="_A6cFMKniEeefb59lDY5vmA"/>
       <extend xmi:id="_P_lp8KnjEeefb59lDY5vmA" extendedCase="_qS4pgKnhEeefb59lDY5vmA" extensionLocation="_P_lC4KnjEeefb59lDY5vmA"/>
       <extend xmi:id="_SFQV8KnjEeefb59lDY5vmA" extendedCase="_UkKTQKnhEeefb59lDY5vmA" extensionLocation="_SFPu4KnjEeefb59lDY5vmA"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_qS4pgKnhEeefb59lDY5vmA" name="Accéder aux options" subject="_dFBEkKniEeefb59lDY5vmA _xgHPwKniEeefb59lDY5vmA">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_qS4pgKnhEeefb59lDY5vmA" name="Accéder aux options" subject="_xgHPwKniEeefb59lDY5vmA">
       <extensionPoint xmi:id="__QivMKnhEeefb59lDY5vmA" name="ExtensionPoint1"/>
       <extensionPoint xmi:id="_P_lC4KnjEeefb59lDY5vmA" name="ExtensionPoint2"/>
     </packagedElement>
@@ -1170,16 +1131,6 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1pZOwKnhEeefb59lDY5vmA" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_2LQlsKnhEeefb59lDY5vmA" memberEnd="_2LRz0KnhEeefb59lDY5vmA _2LTB8KnhEeefb59lDY5vmA" navigableOwnedEnd="_2LRz0KnhEeefb59lDY5vmA _2LTB8KnhEeefb59lDY5vmA">
-      <ownedEnd xmi:id="_2LRz0KnhEeefb59lDY5vmA" name="ouvrir pack" visibility="private" type="_bCj6EKnhEeefb59lDY5vmA" association="_2LQlsKnhEeefb59lDY5vmA">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2LSa4anhEeefb59lDY5vmA" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2LSa4KnhEeefb59lDY5vmA" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_2LTB8KnhEeefb59lDY5vmA" name="joueur" visibility="private" type="_SnDtYKnhEeefb59lDY5vmA" association="_2LQlsKnhEeefb59lDY5vmA">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2LTpAKnhEeefb59lDY5vmA" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2LTB8anhEeefb59lDY5vmA" value="1"/>
-      </ownedEnd>
-    </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_2vMZMKnhEeefb59lDY5vmA" memberEnd="_2vNnUKnhEeefb59lDY5vmA _2vO1cKnhEeefb59lDY5vmA" navigableOwnedEnd="_2vNnUKnhEeefb59lDY5vmA _2vO1cKnhEeefb59lDY5vmA">
       <ownedEnd xmi:id="_2vNnUKnhEeefb59lDY5vmA" name="gérer les decks" visibility="private" type="_c0ACgKnhEeefb59lDY5vmA" association="_2vMZMKnhEeefb59lDY5vmA">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2vOOYanhEeefb59lDY5vmA" value="1"/>
@@ -1230,17 +1181,6 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6BwWIanhEeefb59lDY5vmA" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_E5tXIKniEeefb59lDY5vmA" name="Banque"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_L5P8IKniEeefb59lDY5vmA" name="&quot;secondary&quot;" memberEnd="_L5QjMKniEeefb59lDY5vmA _L5RKQaniEeefb59lDY5vmA" navigableOwnedEnd="_L5QjMKniEeefb59lDY5vmA _L5RKQaniEeefb59lDY5vmA">
-      <ownedEnd xmi:id="_L5QjMKniEeefb59lDY5vmA" name="acheter un emplacement de deck" visibility="private" type="_ij-dEKnhEeefb59lDY5vmA" association="_L5P8IKniEeefb59lDY5vmA">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_L5RKQKniEeefb59lDY5vmA" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_L5QjManiEeefb59lDY5vmA" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_L5RKQaniEeefb59lDY5vmA" name="banque" visibility="private" type="_E5tXIKniEeefb59lDY5vmA" association="_L5P8IKniEeefb59lDY5vmA">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_L5RxUaniEeefb59lDY5vmA" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_L5RxUKniEeefb59lDY5vmA" value="1"/>
-      </ownedEnd>
-    </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_O3nKsKniEeefb59lDY5vmA" memberEnd="_O3oY0KniEeefb59lDY5vmA _O3qOAKniEeefb59lDY5vmA" navigableOwnedEnd="_O3oY0KniEeefb59lDY5vmA _O3qOAKniEeefb59lDY5vmA">
       <ownedEnd xmi:id="_O3oY0KniEeefb59lDY5vmA" name="joueur" visibility="private" type="_SnDtYKnhEeefb59lDY5vmA" association="_O3nKsKniEeefb59lDY5vmA">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_O3pm8KniEeefb59lDY5vmA" value="1"/>
@@ -1251,38 +1191,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_O3rcIKniEeefb59lDY5vmA" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_QbAQEKniEeefb59lDY5vmA" name="&quot;secondary&quot;" memberEnd="_QbA3IKniEeefb59lDY5vmA _QbBeMKniEeefb59lDY5vmA" navigableOwnedEnd="_QbA3IKniEeefb59lDY5vmA _QbBeMKniEeefb59lDY5vmA">
-      <ownedEnd xmi:id="_QbA3IKniEeefb59lDY5vmA" name="acheter pack" visibility="private" type="_g0L6cKnhEeefb59lDY5vmA" association="_QbAQEKniEeefb59lDY5vmA">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QbA3IqniEeefb59lDY5vmA" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QbA3IaniEeefb59lDY5vmA" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_QbBeMKniEeefb59lDY5vmA" name="banque" visibility="private" type="_E5tXIKniEeefb59lDY5vmA" association="_QbAQEKniEeefb59lDY5vmA">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QbBeMqniEeefb59lDY5vmA" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QbBeManiEeefb59lDY5vmA" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Component" xmi:id="_dFBEkKniEeefb59lDY5vmA" name="Component1" useCase="_Z5FJgKnhEeefb59lDY5vmA _g0L6cKnhEeefb59lDY5vmA _WdfMYKnhEeefb59lDY5vmA _ij-dEKnhEeefb59lDY5vmA _qS4pgKnhEeefb59lDY5vmA _X2cjYKnhEeefb59lDY5vmA _bCj6EKnhEeefb59lDY5vmA _c0ACgKnhEeefb59lDY5vmA _e45ScKnhEeefb59lDY5vmA _oOz48KnhEeefb59lDY5vmA _UkKTQKnhEeefb59lDY5vmA _mb1fcKnhEeefb59lDY5vmA"/>
-    <packagedElement xmi:type="uml:Component" xmi:id="_xgHPwKniEeefb59lDY5vmA" name="StoneHearth" useCase="_UkKTQKnhEeefb59lDY5vmA _WdfMYKnhEeefb59lDY5vmA _X2cjYKnhEeefb59lDY5vmA _Z5FJgKnhEeefb59lDY5vmA _bCj6EKnhEeefb59lDY5vmA _c0ACgKnhEeefb59lDY5vmA _e45ScKnhEeefb59lDY5vmA _g0L6cKnhEeefb59lDY5vmA _ij-dEKnhEeefb59lDY5vmA _mb1fcKnhEeefb59lDY5vmA _oOz48KnhEeefb59lDY5vmA _qS4pgKnhEeefb59lDY5vmA"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_Dk5D0KnjEeefb59lDY5vmA" name="&quot;secondary&quot;" memberEnd="_Dk6R8KnjEeefb59lDY5vmA _Dk8HIKnjEeefb59lDY5vmA" navigableOwnedEnd="_Dk6R8KnjEeefb59lDY5vmA _Dk8HIKnjEeefb59lDY5vmA">
-      <ownedEnd xmi:id="_Dk6R8KnjEeefb59lDY5vmA" name="acheter un emplacement de deck" visibility="private" type="_ij-dEKnhEeefb59lDY5vmA" association="_Dk5D0KnjEeefb59lDY5vmA">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Dk7gEanjEeefb59lDY5vmA" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Dk7gEKnjEeefb59lDY5vmA" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_Dk8HIKnjEeefb59lDY5vmA" name="banque" visibility="private" type="_E5tXIKniEeefb59lDY5vmA" association="_Dk5D0KnjEeefb59lDY5vmA">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Dk9VQanjEeefb59lDY5vmA" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Dk9VQKnjEeefb59lDY5vmA" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_Gc-EMKnjEeefb59lDY5vmA" name="&quot;secondary&quot;" memberEnd="_Gc-rQKnjEeefb59lDY5vmA _Gc_5YKnjEeefb59lDY5vmA" navigableOwnedEnd="_Gc-rQKnjEeefb59lDY5vmA _Gc_5YKnjEeefb59lDY5vmA">
-      <ownedEnd xmi:id="_Gc-rQKnjEeefb59lDY5vmA" name="acheter pack" visibility="private" type="_g0L6cKnhEeefb59lDY5vmA" association="_Gc-EMKnjEeefb59lDY5vmA">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Gc_SUanjEeefb59lDY5vmA" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Gc_SUKnjEeefb59lDY5vmA" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_Gc_5YKnjEeefb59lDY5vmA" name="banque" visibility="private" type="_E5tXIKniEeefb59lDY5vmA" association="_Gc-EMKnjEeefb59lDY5vmA">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Gc_5YqnjEeefb59lDY5vmA" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Gc_5YanjEeefb59lDY5vmA" value="1"/>
-      </ownedEnd>
-    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_xgHPwKniEeefb59lDY5vmA" name="StoneHearth" useCase="_UkKTQKnhEeefb59lDY5vmA _WdfMYKnhEeefb59lDY5vmA _X2cjYKnhEeefb59lDY5vmA _Z5FJgKnhEeefb59lDY5vmA _c0ACgKnhEeefb59lDY5vmA _e45ScKnhEeefb59lDY5vmA _g0L6cKnhEeefb59lDY5vmA _ij-dEKnhEeefb59lDY5vmA _mb1fcKnhEeefb59lDY5vmA _oOz48KnhEeefb59lDY5vmA _qS4pgKnhEeefb59lDY5vmA"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_WqJdcKnjEeefb59lDY5vmA" memberEnd="_WqKrkKnjEeefb59lDY5vmA _WqLSoqnjEeefb59lDY5vmA" navigableOwnedEnd="_WqKrkKnjEeefb59lDY5vmA _WqLSoqnjEeefb59lDY5vmA">
       <ownedEnd xmi:id="_WqKrkKnjEeefb59lDY5vmA" name="visiteur" visibility="private" type="_QLTcoKnhEeefb59lDY5vmA" association="_WqJdcKnjEeefb59lDY5vmA">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WqLSoanjEeefb59lDY5vmA" value="1"/>
@@ -1321,16 +1230,6 @@
       <ownedEnd xmi:id="_ZTsSkKnjEeefb59lDY5vmA" name="jouer" visibility="private" type="_Z5FJgKnhEeefb59lDY5vmA" association="_ZTrEcKnjEeefb59lDY5vmA">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZTsSkqnjEeefb59lDY5vmA" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZTsSkanjEeefb59lDY5vmA" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_aPOtwKnjEeefb59lDY5vmA" memberEnd="_aPPU0KnjEeefb59lDY5vmA _aPP74KnjEeefb59lDY5vmA" navigableOwnedEnd="_aPPU0KnjEeefb59lDY5vmA _aPP74KnjEeefb59lDY5vmA">
-      <ownedEnd xmi:id="_aPPU0KnjEeefb59lDY5vmA" name="joueur" visibility="private" type="_SnDtYKnhEeefb59lDY5vmA" association="_aPOtwKnjEeefb59lDY5vmA">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aPPU0qnjEeefb59lDY5vmA" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aPPU0anjEeefb59lDY5vmA" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_aPP74KnjEeefb59lDY5vmA" name="ouvrir pack" visibility="private" type="_bCj6EKnhEeefb59lDY5vmA" association="_aPOtwKnjEeefb59lDY5vmA">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aPP74qnjEeefb59lDY5vmA" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aPP74anjEeefb59lDY5vmA" value="1"/>
       </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_a0QGYKnjEeefb59lDY5vmA" memberEnd="_a0QtcKnjEeefb59lDY5vmA _a0RUgKnjEeefb59lDY5vmA" navigableOwnedEnd="_a0QtcKnjEeefb59lDY5vmA _a0RUgKnjEeefb59lDY5vmA">
@@ -1542,6 +1441,9 @@
       <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
     </profileApplication>
   </uml:Package>
-  <Standard:Subsystem xmi:id="_dFIZUKniEeefb59lDY5vmA" base_Component="_dFBEkKniEeefb59lDY5vmA"/>
   <Standard:Subsystem xmi:id="_xgKTEKniEeefb59lDY5vmA" base_Component="_xgHPwKniEeefb59lDY5vmA"/>
+  <Default:Documentation xmi:id="_Z4qdEK9jEee6Su47KRuvbw" base_Comment="_Zzu5wK9jEee6Su47KRuvbw"/>
+  <Default:Documentation xmi:id="_QlYLcLHiEeel66c-mKx7cw" base_Comment="_QlSE0LHiEeel66c-mKx7cw"/>
+  <Default:Documentation xmi:id="_2fjxwLHkEeel66c-mKx7cw" base_Comment="_2fhVgLHkEeel66c-mKx7cw"/>
+  <Default:Documentation xmi:id="_TGReELHmEeel66c-mKx7cw" base_Comment="_TGQP8LHmEeel66c-mKx7cw"/>
 </xmi:XMI>
