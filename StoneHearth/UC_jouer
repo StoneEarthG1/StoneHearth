@@ -1,0 +1,50 @@
+UC?? : Jouer
+
+Acteurs : Joueur, Moteur de jeu
+
+Préconditions : aucune (joueur connecté par définition ?)
+
+Scénario nominal :
+1 Le joueur clique sur "Chercher une partie" dans le menu principal
+2 Le joueur choisit un deck parmi ceux qu'il a mémorisés
+3 Le système cherche un adversaire en recherche de partie, avec un écart de rang inférieur à 3
+4 Le système transmet au moteur de jeu les identifiants des deux joueurs et leurs decks
+5 Le moteur de jeu exécute le jeu et renvoie quel joueur a gagné
+6 Le système vérifie que le joueur a gagné
+7 Le système incrémente le rang du joueur de 1 dans la limite de 100
+8 Le système propose au joueur de jouer une nouvelle partie ou de revenir au menu principal
+9 Le joueur choisit de rejouer
+10 Appel du cas d'utilisation "Jouer"
+
+
+Alternatives :
+A1. Le joueur a perdu (SN6) :
+Le système décrémente le rang du joueur de 1 dans la limite de 0
+Le scénario nominal reprend au point 8
+
+A2. Le joueur choisit de revenir au menu principal (SN9) :
+Le système retourne au menu principal
+
+A3. Le joueur abandonne (SN5) :
+Le scénario nominal reprend au point 6 ???
+
+A4. L'adversaire abandonne (SN5) :
+Le système affiche "L'adversaire a abandonné"
+Le scénario nominal reprend au point 6
+
+
+Exceptions :
+E1. Le joueur annule la partie (SN2 ou SN3) :
+Le système retourne au menu principal
+
+E2. Le système ne trouve pas d'adversaire (SN3) :
+Le système affiche "Impossible de trouver un adversaire"
+Le système retourne au menu principal
+
+
+Post-conditions :
+le système a mémorisé le nouveau rang du joueur
+le système peut offrir un pack au joueur si celui-ci a joué au moins 10 parties (jusqu'au bout), et attendu au moins 24h, depuis son dernier pack
+
+
+Contraintes non-fonctionnelles : serveurs OK ???
