@@ -1,0 +1,114 @@
+TV01 : Partie nominale
+
+Contexte :
+"bob" joueur de rang 50, "deckBob1" deck mémorisé par bob, "jon" joueur de rang 51 en recherche d'une partie, "deckJon1" deck mémorisé par jon
+Nombre de parties jouées par bob depuis son dernier pack : 9
+Date du dernier pack que bob a reçu : 18/10/17 12:34
+Date de l'avant-dernier pack que bob a reçu : 17/10/17 22:00
+Date courante : 20/10/17 00:00
+			
+Entrée : idJoueur = "bob", rang = 50, idDeck = "deckBob1"
+
+Scénario :
+1. Le testeur clique sur "Chercher une partie" dans le menu principal
+2. Le testeur choisit le deck "deckBob1"
+3. Le testeur gagne la partie
+4. Le testeur clique sur "Revenir au menu principal"
+
+Résultats attendus :
+Le système affiche le menu principal
+bob a reçu un pack
+Le rang de bob est passé à 51
+Le rang de jon est passé à 50
+Le nombre de parties jouées par bob depuis son dernier pack est passé à 0
+La date du dernier pack que bob a reçu est passée à 20/10/17 00:00
+La date de l'avant-dernier pack que bob a reçu est passée à 18/10/17 12:34
+
+Moyens de vérification : visuels
+
+
+TV02 : Partie perdue
+
+Contexte :
+"bob" joueur de rang 50, "deckBob1" deck mémorisé par bob, "jon" joueur de rang 51 en recherche d'une partie, "deckJon1" deck mémorisé par jon
+Nombre de parties jouées par bob depuis son dernier pack : 9
+Date du dernier pack que bob a reçu : 18/10/17 12:34
+Date de l'avant-dernier pack que bob a reçu : 17/10/17 22:00
+Date courante : 20/10/17 00:00
+			
+Entrée : idJoueur = "bob", rang = 50, idDeck = "deckBob1"
+
+Scénario :
+1. Le testeur clique sur "Chercher une partie" dans le menu principal
+2. Le testeur choisit le deck "deckBob1"
+3. Le testeur perd la partie
+4. Le testeur clique sur "Revenir au menu principal"
+
+Résultats attendus :
+Le système affiche le menu principal
+bob a reçu un pack
+Le rang de bob est passé à 49
+Le rang de jon est passé à 52
+Le nombre de parties jouées par bob depuis son dernier pack est passé à 0
+La date du dernier pack que bob a reçu est passée à 20/10/17 00:00
+La date de l'avant-dernier pack que bob a reçu est passée à 18/10/17 12:34
+
+Moyens de vérification : visuels
+
+
+TV03 : Pas assez de parties jouées
+
+Contexte :
+"bob" joueur de rang 50, "deckBob1" deck mémorisé par bob, "jon" joueur de rang 51 en recherche d'une partie, "deckJon1" deck mémorisé par jon
+Nombre de parties jouées par bob depuis son dernier pack : 2
+Date du dernier pack que bob a reçu : 18/10/17 12:34
+Date de l'avant-dernier pack que bob a reçu : 17/10/17 22:00
+Date courante : 20/10/17 00:00
+			
+Entrée : idJoueur = "bob", rang = 50, idDeck = "deckBob1"
+
+Scénario :
+1. Le testeur clique sur "Chercher une partie" dans le menu principal
+2. Le testeur choisit le deck "deckBob1"
+3. Le testeur gagne la partie
+4. Le testeur clique sur "Revenir au menu principal"
+
+Résultats attendus :
+Le système affiche le menu principal
+bob n'a pas reçu de pack
+Le rang de bob est passé à 51
+Le rang de jon est passé à 50
+Le nombre de parties jouées par bob depuis son dernier pack est passé à 3
+La date du dernier pack que bob a reçu est passée à 20/10/17 00:00
+La date de l'avant-dernier pack que bob a reçu est passée à 18/10/17 12:34
+
+Moyens de vérification : visuels
+
+
+TV04 : Packs reçus trop récemment
+
+Contexte :
+"bob" joueur de rang 50, "deckBob1" deck mémorisé par bob, "jon" joueur de rang 51 en recherche d'une partie, "deckJon1" deck mémorisé par jon
+Nombre de parties jouées par bob depuis son dernier pack : 12
+Date du dernier pack que bob a reçu : 19/10/17 22:30
+Date de l'avant-dernier pack que bob a reçu : 19/10/17 22:00
+Date courante : 19/10/17 23:00
+			
+Entrée : idJoueur = "bob", rang = 50, idDeck = "deckBob1"
+
+Scénario :
+1. Le testeur clique sur "Chercher une partie" dans le menu principal
+2. Le testeur choisit le deck "deckBob1"
+3. Le testeur gagne la partie
+4. Le testeur clique sur "Revenir au menu principal"
+
+Résultats attendus :
+Le système affiche le menu principal
+bob n'a pas reçu de pack
+Le rang de bob est passé à 51
+Le rang de jon est passé à 50
+Le nombre de parties jouées par bob depuis son dernier pack est passé à 13
+La date du dernier pack que bob a reçu reste 19/10/17 22:30
+La date de l'avant-dernier pack que bob a reçu reste 19/10/17 22:00
+
+Moyens de vérification : visuels

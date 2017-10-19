@@ -1,0 +1,45 @@
+UC06 : Jouer
+Date de création : 17/10/17
+Responsable: M. Vincent
+Version 1.1
+
+Description: Le joueur souhaite jouer une partie
+Acteurs : Joueur, Moteur de jeu
+Préconditions : aucune
+
+Scénario nominal :
+1. Le joueur clique sur "Chercher une partie" dans le menu principal
+2. Le système affiche les decks du joueur
+3. Le joueur choisit un deck
+4. Le système cherche un adversaire en recherche de partie, avec un écart de rang inférieur à 3
+5. Le système transmet au moteur de jeu les identifiants des deux joueurs et leurs decks
+6. Le moteur de jeu exécute le jeu et renvoie quel joueur a gagné
+7. Le système vérifie que le joueur a gagné
+8. Le système incrémente le rang du joueur de 1 dans la limite de 100
+9. Le système incrémente le nombre de parties jouées depuis le dernier pack offert
+10. Le système vérifie que le joueur a joué 10 parties ou plus depuis son dernier pack reçu et que l'avant-dernier pack qu'il a reçu date d'il y a plus de 24 heures
+11. Le système offre un pack au joueur
+12. Le système réinitialise le nombre de parties jouées depuis son dernier pack reçu et met à jour les dates des dernier et avant-dernier packs reçus
+13. Le système propose au joueur de jouer une nouvelle partie ou de revenir au menu principal
+14. Le joueur choisit de revenir au menu principal
+15. Le système affiche le menu principal
+
+Alternatives :
+A1. Le joueur a perdu (SN7) :
+1. Le système décrémente le rang du joueur de 1 dans la limite de 0
+2. Le scénario nominal reprend au point 9
+A2. Le joueur choisit de rejouer (SN14) :
+1. Le scénario nominal reprend au point 2
+A3. Le joueur n'a pas joué assez de parties ou a reçu son avant-dernier pack il y a moins de 24 heures (SN10) :
+1. Le scénario nominal reprend au point 13
+
+Exceptions :
+E1. Le joueur annule la partie (SN3) :
+1. Le système retourne au menu principal
+E2. Le système ne trouve pas d'adversaire (SN4) :
+1. Le système affiche "Impossible de trouver un adversaire"
+2. Le système retourne au menu principal
+
+Post-conditions :
+Le système a mémorisé le nouveau rang du joueur
+Le nombre de parties jouées depuis le dernier pack offert et les dates des dernier et avant-dernier packs reçus sont à jour
