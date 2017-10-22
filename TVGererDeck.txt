@@ -1,0 +1,168 @@
+TV01 : Ajout d'une carte dans un deck
+Contexte :
+"Bob" le joueur souhaite ajouter dans son deck nommé "Mon super deck".
+"Bob" est correctement authentifié
+L'emplacement dans le deck que "Bob" souhaite remplir est le n°5
+Cet emplacement est vide
+La carte qu'il souhaite ajouter est "Super dragon".
+Cette dernière n'est pas déjà présente dans le deck
+
+Entrée : deckName = "Mon super deck", emplacement = 5, carteName = 
+
+Scénario :
+1. Le testeur clique sur le bouton "gérer les decks"
+2. Le testeur sélectionne le deck nommé "Mon super deck"
+3. Le testeur sélectionne l'emplacement n°5
+4. Le testeur sélectionne la carte "Super dragon"
+5. Le testeur valide son deck
+6. Le testeur clique sur le bouton "Retour au menu principal"
+
+Résultats attendus :
+Le système affiche le menu principal
+La carte "Super dragon" occupe l'emplacement 5 du deck "Mon super deck"
+
+Moyens de vérification:
+Visuels, TV02
+
+TV02 : Modification d'une carte
+Contexte :
+"Bob" le joueur souhaite remplacer la carte "Super dragon" du deck "Mon super deck".
+"Bob est correctement authentifié
+L'emplacement de la carte que "Bob" souhaite modifier est le n°5
+La carte "Super dragon" se trouve dans cet emplacement (TV01)
+La carte qu'il souhaite mettre à la place est "Grand magicien"
+Cette dernière n'est pas présente dans le deck
+
+Entrée : deckName = "Mon super deck", emplacement = 5, carteName = "Grand magicien"
+
+Scénario :
+1. Le testeur clique sur le bouton "gérer les decks"
+2. Le testeur sélectionne le deck nommé "Mon super deck"
+3. Le testeur sélectionne l'emplacement 5
+4. Le testeur sélectionne la carte "Grand magicien"
+5. Le testeur valide son deck
+6. Le testeur clique sur le bouton "Retour au menu principal"
+
+Résultats attendus:
+Le système affiche le menu principal
+La carte "Super dragon" est absente du deck
+La carte "Grand magicien" se trouve à l'emplacement 5 dans le deck "Mon super deck"
+
+Moyens de vérification:
+Visuels, TV03
+
+TV03 : Supprimer une carte d'un deck
+Contexte :
+"Bob" souhaite supprimer la carte "Grand magicien" de son deck "Mon super deck"
+"Bob" est correctement authentifié
+La carte qu'il souhaite supprimer est "Grand magicien".
+Cette carte se situe à l'emplacement 5
+
+Entrée : deckName="Mon super deck", emplacement=5, carteName="Grand magicien"
+
+Scénario :
+1. Le testeur clique sur "gérer es decks"
+2. Le testeur sélectionne le deck nommé "Mon super deck"
+3. Le testeur sélectionne la carte "Grand magicien" dans l'emplacement 5 et clique sur le bouton "Supprimer"
+4. Le testeur valide le deck
+5. Le testeur clique sur le bouton "Retour au menu principal"
+
+Résultats attendus:
+Le système affiche le menu principal
+La carte "Grand magicien" est absente du deck
+L'emplacement 5 du deck "Mon super deck" est vide
+
+Moyens de vérification:
+Visuels, TV01
+
+TV04: Création d'un deck
+Contexte :
+"Bob" souhaite créer un nouveau deck qu'il veut nommer "Mon super deck"
+"Bob" est authentifié
+L'emplacement n°1 est disponible
+Il n'y a pas de deck nommé "Mon super deck"
+
+Entrée : deckName="Mon super deck", emplacement=1
+
+Sénario :
+1. Le testeur clique sur "gérer deck"
+2. Le testeur clique sur l'emplacement n°1
+3. Le testeur entre "Mon super deck" comme nom de deck
+4. Le testeur appuie sur le bouton "Retour au menu principal"
+
+Résultats attendus:
+Le système affiche la page principale
+Le nouveau deck, de nom "Mon super deck", est vide et occupe l'emplacement n°1
+
+Moyens de vérification:
+Visuels, TV01
+
+TV05: Suppression d'un deck
+Contexte :
+"Bob" souhaite supprimer le deck nommé "Mon super deck"
+"Bob" est authentifié
+Le deck occupe l'emplacement n°1
+
+Entrée : deckName="Mon super deck", emplacement=1
+
+Sénario :
+1. Le testeur clique sur "gérer deck"
+2. Le testeur clique sur l'emplacement n°1
+3. Le testeur clique sur le bouton supprimer
+4. Le testeur confirme la suppression
+4. Le testeur appuie sur le bouton "Retour au menu principal"
+
+Résultats attendus:
+Le système affiche la page principale
+Le deck "Mon super deck" a été supprimé et l'emplacement n°1 est disponible
+
+Moyens de vérification:
+Visuels, TV05
+
+TV06: Annulation d'une opération de modification de deck
+Contexte :
+"Bob" annule une modification effectuée dans un deck
+"Mon super deck" est le deck concerné
+L'opération conciste à échanger la carte "Super dragon" par la carte "Grand magicien"
+La carte "Super dragon" se trouve à lemplacement 5
+La carte "Grand magicien" n'est pas présente dans le deck "Mon super deck"
+"Bob" est correctement authentifié
+
+Entrée : deckName="Mon super deck", emplacement=5, carteName="Grand magicien"
+
+Sénario:
+1. Le testeur clique sur le bouton "gérer les decks"
+2. Le testeur clique sur le deck nommé "Mon super deck"
+3. Le testeur clique sur la carte "Super dragon" à l'emplacement 5
+4. Le testeur sélectionne la carte "Grand magicien"
+5. Le testeur annule en cliquant sur le bouton annuler
+6. Le testeur appuie sur le bouton "Retour au menu principal"
+
+Résultats attendus:
+Le systèmeaffiche la page principale.
+Le deck "Mon super deck" n'a pas été modifié, c'est à dire que la carte "Super dragon"
+ est toujours à l'emplacement 5 de ce deck.
+
+Moyens de vérification:
+Visuels, TV02
+
+TV07: Duplication d'un nom de deck
+Contexte :
+"Bob" souhaite créer un nouveau deck de nom "Mon super deck"
+Un deck de nom "Mon super deck" existe déjà
+"Bob" est correctement authentifié
+L'emplacement de deck n°2 est disponible
+
+Entrée : deckName="Mon super deck", emplacement=1
+
+Scénario :
+1. Le testeur clique sur le bouton "gérer les decks"
+2. Le testeur clique sur l'emplacement n°2 de deck
+3. Le testeur entre le nom "Mon super deck" dans le champ 'nom du deck'
+
+Résultats attendus:
+Le système avertit le testeur de la duplication de nom et l'invite à saisir un nouveau nom
+Le deck n'a pas été créé
+
+Moyens de modification:
+Visuels

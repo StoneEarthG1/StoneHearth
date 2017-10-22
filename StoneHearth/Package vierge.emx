@@ -1132,7 +1132,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_c0ACgKnhEeefb59lDY5vmA" name="Gérer les decks" subject="_xgHPwKniEeefb59lDY5vmA">
       <ownedComment xmi:id="_Zzu5wK9jEee6Su47KRuvbw" annotatedElement="_c0ACgKnhEeefb59lDY5vmA">
-        <body>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Nom &lt;/u>: UC06, Gérer Deck&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Date de création&lt;/u> : 12/10/2017&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Version&lt;/u>: 2.0&lt;/span>&lt;/p>&lt;p>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Description &lt;/u>: Le joueur souhaite modifier un deck&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Acteur &lt;/u>: Joueur&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Préconditions &lt;/u>: Aucunes&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Scénario Nominal&lt;/u>:&lt;/span>&lt;/p>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>1. Le joueur clique sur le bouton &quot;gérer les decks&quot;&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>2. Le système affiche la page de gestion des decks&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>3. Le joueur sélectionne le deck qu'il souhaite modifier et valide&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>4. Le système affiche le deck courant&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>5. Le système sauvegarde le deck avant toute modification&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>6. Le joueur sélectionne un emplacement libre&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>7. Le système propose les cartes que le joueur peut ajouter à son deck (cartes non déjà présentes dans le deck)&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>8. Le joueur sélectionne la carte qu'il souhaite ajouter à son deck et valide&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>9. Le système ajoute la carte au deck&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>10. Le joueur valide son deck&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>11. Le système met à jour la validité du deck : 30 cartes, le deck est valide, sinon non&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>12. Le système enregistre le deck&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>13. Le système affiche le menu principal&lt;/span>&lt;/p>&lt;/blockquote>&lt;p>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Alternatives et Exceptions&lt;/u> :&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>A1 : Le joueur ne valide pas l'ajout de la carte dans le deck et souhaite en sélectionner une autre (SN8)&lt;/span>&lt;/p>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>1. retour en SN7&lt;/span>&lt;/p>&lt;/blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>A2: En SN6, le joueur préfère supprimer une carte&lt;/span>&lt;/p>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>1. Le joueur sélection la carte qu'il souhaite supprimer&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>2. Le système supprimer la carte du deck&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>3. Reprise en SN10&lt;/span>&lt;/p>&lt;/blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>A3: En SN10, le joueur souhaite effectuer une nouvelle opération&lt;/span>&lt;/p>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>1. Reprise en SN6&lt;/span>&lt;/p>&lt;/blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>A4: Le joueur souhaite supprimer un deck (SN3)&lt;/span>&lt;/p>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>1. Le joueur sélectionne le deck qu'il souhaite supprimer&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>2. Le système demande confirmation&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>3. Le joueur valide&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>4. Le système supprime le deck et libère un emplacement de deck&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>5. Le système affiche le menu principal&lt;/span>&lt;/p>&lt;/blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>A5: Le joueur souhaite créer un nouveau deck (SN3)&lt;/span>&lt;/p>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>1. Le joueur clique sur un emplacement de deck vide&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>2. Le système créé une nouveau deck vide&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>3. Reprise en SN4&lt;/span>&lt;/p>&lt;/blockquote>&lt;p>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>E1 : Le joueur annule (SN10)&lt;/span>&lt;/p>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>1. Le système restaure le deck&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>2. Le système affiche le menu principal&lt;/span>&lt;/p>&lt;/blockquote>&lt;p>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Postconditions &lt;/u>:&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>* Si le deck a été modifié :&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>* le système a enregistré la nouvelle confuration deck&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>* la validité du deck a été mise à jour&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>* Si le deck a été supprimé :&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>* un emplacement de deck est disponible&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>* Si un deck a été créé :&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>* un emplacement supplémentaire est occupé&lt;/span>&lt;/p>&lt;p>&lt;/p></body>
+        <body>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Nom &lt;/u>: UC06, Gérer Deck&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Date de création&lt;/u> : 12/10/2017&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Version&lt;/u>: 2.3&lt;/span>&lt;/p>&lt;p>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Description &lt;/u>: Le joueur souhaite modifier un deck&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Acteur &lt;/u>: Joueur&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Préconditions &lt;/u>: Aucunes&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Scénario Nominal&lt;/u>:&lt;/span>&lt;/p>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>1. Le joueur clique sur le bouton &quot;gérer les decks&quot;&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>2. Le système affiche la page de gestion des decks&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>3. Le joueur sélectionne le deck qu'il souhaite modifier et valide&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>4. Le système affiche le deck courant&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>5. Le système sauvegarde le deck avant toute modification&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>6. Le joueur sélectionne un emplacement libre&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>7. Le système propose les cartes que le joueur peut ajouter à son deck (cartes non déjà présentes dans le deck)&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>8. Le joueur sélectionne la carte qu'il souhaite ajouter à son deck et valide&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>9. Le système ajoute la carte au deck&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>10. Le joueur valide son deck&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>11. Le système met à jour la validité du deck : 30 cartes, le deck est valide, sinon non&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>12. Le système enregistre le deck&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>13. Le sytème affiche la page de gestion des decks&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>14. Le joueur clique sur le bouton &quot;Revenir au menu principal&quot;&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>13. Le système affiche le menu principal&lt;/span>&lt;/p>&lt;/blockquote>&lt;p>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Alternatives et Exceptions&lt;/u> :&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>A1 : Le joueur ne valide pas l'ajout de la carte dans le deck et souhaite en sélectionner une autre (SN8)&lt;/span>&lt;/p>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>1. Retour en SN7&lt;/span>&lt;/p>&lt;/blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>A2: En SN6, le joueur préfère supprimer une carte&lt;/span>&lt;/p>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>1. Le joueur sélection la carte qu'il souhaite supprimer et clique sur le bouton &quot;supprimer&quot;&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>2. Le système supprimer la carte du deck&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>3. Reprise en SN10&lt;/span>&lt;/p>&lt;/blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>A3: En SN10, le joueur souhaite effectuer une nouvelle opération dans le même deck&lt;/span>&lt;/p>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>1. Reprise en SN6&lt;/span>&lt;/p>&lt;/blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>A4: Le joueur souhaite supprimer un deck (SN3)&lt;/span>&lt;/p>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>1. Le joueur sélectionne le deck qu'il souhaite supprimer et clique sur supprimer&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>2. Le système demande confirmation&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>3. Le joueur valide&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>4. Le système supprime le deck et libère un emplacement de deck&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>5. Retour en SN13&lt;/span>&lt;/p>&lt;/blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>A5: Le joueur souhaite créer un nouveau deck (SN3)&lt;/span>&lt;/p>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>1. Le joueur clique sur un emplacement de deck vide et entre un nom pour ce deck&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>2. Le système vérifie que le nom n'est pas déjà utilisé pour un des autres decks du joueur&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>3. Le système créé une nouveau deck vide&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>4. Reprise en SN4&lt;/span>&lt;/p>&lt;/blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>A6: Le nom entré lors de la création du deck n'est pas disponible (A5.2)&lt;/span>&lt;/p>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>1. Le système &lt;/span>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>avertit le joueur et lui propose d'entrer un nouveau nom&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>2. Le joueur entre un nouveau nom et valide.&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>3.Retour en A5.2&lt;/span>&lt;/p>&lt;/blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>A7: Le joueur souhaite effectuer une nouvelle opération de gestion de deck (SN14)&lt;/span>&lt;/p>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>1. Retour en SN2&lt;/span>&lt;/p>&lt;/blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>A8&lt;/span>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;> : Le joueur annule (SN10)&lt;/span>&lt;/p>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>1. Le système restaure le deck&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>2. Retour en SN13&lt;/span>&lt;/p>&lt;/blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>A9: Le joueur annule (A5.1)&lt;/span>&lt;/p>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>1. &lt;/span>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>Retour en SN13&lt;/span>&lt;/p>&lt;/blockquote>&lt;p>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>&lt;u>Postconditions &lt;/u>:&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>* Si le deck a été modifié :&lt;/span>&lt;/p>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>* le système a enregistré la nouvelle configuration deck&lt;/span>&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>* la validité du deck a été mise à jour&lt;/span>&lt;/p>&lt;/blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>* Si le deck a été supprimé :&lt;/span>&lt;/p>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>* un emplacement de deck est disponible&lt;/span>&lt;/p>&lt;/blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>* Si un deck a été créé :&lt;/span>&lt;/p>&lt;blockquote>&lt;p>&lt;span style=&quot;font-size:10pt;font-family:Arial;&quot;>* un emplacement supplémentaire est occupé&lt;/span>&lt;/p>&lt;/blockquote>&lt;p>&lt;/p></body>
       </ownedComment>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_e45ScKnhEeefb59lDY5vmA" name="Détruire carte" subject="_xgHPwKniEeefb59lDY5vmA">
@@ -1294,8 +1294,17 @@
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_29oyoLUKEeef7JT-d8nLMA" name="afficheDeck"/>
-      <ownedOperation xmi:id="_BWXhALULEeef7JT-d8nLMA" name="sauvegardeTempDeck"/>
-      <ownedOperation xmi:id="_Tu3iULULEeef7JT-d8nLMA" name="ajouterCarte"/>
+      <ownedOperation xmi:id="_BWXhALULEeef7JT-d8nLMA" name="sauvegardeTempDeck">
+        <ownedParameter xmi:id="_j3h-4LdDEeew6v85q-xBGw" name="deckName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_GCG8YLdFEeew6v85q-xBGw" name="result" type="_EIwJYKnkEeefb59lDY5vmA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Tu3iULULEeef7JT-d8nLMA" name="ajouterCarte">
+        <ownedParameter xmi:id="_zacdsLdEEeew6v85q-xBGw" name="emplacement">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+      </ownedOperation>
       <ownedOperation xmi:id="_YgVGMLULEeef7JT-d8nLMA" name="afficherCartes"/>
       <ownedOperation xmi:id="_o_TaELULEeef7JT-d8nLMA" name="selectionnerCarte">
         <ownedParameter xmi:id="_0JQKALULEeef7JT-d8nLMA" name="carteName">
@@ -1305,6 +1314,9 @@
       <ownedOperation xmi:id="_c06rYLUMEeef7JT-d8nLMA" name="enregistrerCarte">
         <ownedParameter xmi:id="_eNuRYLUMEeef7JT-d8nLMA" name="carteName">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_-j76oLdEEeew6v85q-xBGw" name="emplacement">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_1QELoLUMEeef7JT-d8nLMA" name="validerDeck"/>
@@ -1482,6 +1494,7 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xMxyIankEeefb59lDY5vmA" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xMxyIKnkEeefb59lDY5vmA" value="1"/>
       </ownedAttribute>
+      <ownedAttribute xmi:id="_UF-rgLdgEeew6v85q-xBGw" name="dateAvantDernierPack" visibility="private"/>
       <ownedAttribute xmi:id="_9CmJkKnkEeefb59lDY5vmA" name="deck" visibility="private" type="_EIwJYKnkEeefb59lDY5vmA" association="_9CligKnkEeefb59lDY5vmA">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9CmJkqnkEeefb59lDY5vmA" value="*"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9CmJkankEeefb59lDY5vmA"/>
@@ -1701,8 +1714,6 @@
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_41tcorUMEeef7JT-d8nLMA" name="ReceiveOperationEvent11" operation="_41tcoLUMEeef7JT-d8nLMA"/>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_FYbWUbUNEeef7JT-d8nLMA" name="SendOperationEvent13" operation="_FYbWULUNEeef7JT-d8nLMA"/>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_FYbWUrUNEeef7JT-d8nLMA" name="ReceiveOperationEvent13" operation="_FYbWULUNEeef7JT-d8nLMA"/>
-    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_e4cM4bUNEeef7JT-d8nLMA" name="SendOperationEvent14" operation="_e4cM4LUNEeef7JT-d8nLMA"/>
-    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_e4cM4rUNEeef7JT-d8nLMA" name="ReceiveOperationEvent14" operation="_e4cM4LUNEeef7JT-d8nLMA"/>
     <packagedElement xmi:type="uml:Collaboration" xmi:id="_flQ6cLctEeew6v85q-xBGw" name="Collaboration1">
       <ownedBehavior xmi:type="uml:Interaction" xmi:id="_fleV0LctEeew6v85q-xBGw" name="Interaction1">
         <eAnnotations xmi:id="_flxQwLctEeew6v85q-xBGw" source="uml2.diagrams">
@@ -2071,21 +2082,61 @@
           </argument>
         </message>
         <message xmi:id="_8yC9sLctEeew6v85q-xBGw" name="choisirJouerPartie" messageSort="reply" receiveEvent="_8yEL0LctEeew6v85q-xBGw" sendEvent="_8yBvkLctEeew6v85q-xBGw" connector="_8yFZ8LctEeew6v85q-xBGw"/>
-        <message xmi:id="_NbgGcLcyEeew6v85q-xBGw" name="choisirDeck" receiveEvent="_NbgGcrcyEeew6v85q-xBGw" sendEvent="_NbgGcbcyEeew6v85q-xBGw" connector="_8yFZ8LctEeew6v85q-xBGw"/>
+        <message xmi:id="_NbgGcLcyEeew6v85q-xBGw" name="choisirDeck" receiveEvent="_NbgGcrcyEeew6v85q-xBGw" sendEvent="_NbgGcbcyEeew6v85q-xBGw" connector="_8yFZ8LctEeew6v85q-xBGw">
+          <argument xmi:type="uml:OpaqueExpression" xmi:id="_qgatsLdfEeew6v85q-xBGw">
+            <eAnnotations xmi:id="_qgatsbdfEeew6v85q-xBGw" source="Parameter" references="_Vpy6YLcuEeew6v85q-xBGw"/>
+            <language></language>
+            <body>&quot;deck1&quot;</body>
+          </argument>
+        </message>
         <message xmi:id="_NbgGdbcyEeew6v85q-xBGw" name="choisirDeck" messageSort="reply" receiveEvent="_NbpQYLcyEeew6v85q-xBGw" sendEvent="_NbgGdLcyEeew6v85q-xBGw" connector="_8yFZ8LctEeew6v85q-xBGw"/>
         <message xmi:id="_WwA-wLcyEeew6v85q-xBGw" name="chercherAdversaire" receiveEvent="_WwA-wrcyEeew6v85q-xBGw" sendEvent="_WwA-wbcyEeew6v85q-xBGw" connector="_cQ6YU7cuEeew6v85q-xBGw"/>
         <message xmi:id="_WwA-xbcyEeew6v85q-xBGw" name="chercherAdversaire" messageSort="reply" receiveEvent="_WwA-xrcyEeew6v85q-xBGw" sendEvent="_WwA-xLcyEeew6v85q-xBGw" connector="_cQ6YU7cuEeew6v85q-xBGw"/>
         <message xmi:id="_b2SVALcyEeew6v85q-xBGw" name="lancerPartie(&quot;bob&quot;, &quot;deck1&quot;, &quot;joe&quot;, &quot;deck2&quot;)" receiveEvent="_b2SVArcyEeew6v85q-xBGw" sendEvent="_b2SVAbcyEeew6v85q-xBGw" connector="_ydGGoLcuEeew6v85q-xBGw"/>
         <message xmi:id="_b2SVBbcyEeew6v85q-xBGw" name="lancerPartie(&quot;bob&quot;, &quot;deck1&quot;, &quot;joe&quot;, &quot;deck2&quot;)" messageSort="reply" receiveEvent="_b2SVBrcyEeew6v85q-xBGw" sendEvent="_b2SVBLcyEeew6v85q-xBGw" connector="_ydGGoLcuEeew6v85q-xBGw"/>
-        <message xmi:id="_gJwVULcyEeew6v85q-xBGw" name="verifieResultat" receiveEvent="_gJwVUrcyEeew6v85q-xBGw" sendEvent="_gJwVUbcyEeew6v85q-xBGw" connector="_cQ6YU7cuEeew6v85q-xBGw"/>
+        <message xmi:id="_gJwVULcyEeew6v85q-xBGw" name="verifieResultat" receiveEvent="_gJwVUrcyEeew6v85q-xBGw" sendEvent="_gJwVUbcyEeew6v85q-xBGw" connector="_cQ6YU7cuEeew6v85q-xBGw">
+          <argument xmi:type="uml:OpaqueExpression" xmi:id="_s9dX4LdfEeew6v85q-xBGw">
+            <eAnnotations xmi:id="_s9dX4bdfEeew6v85q-xBGw" source="Parameter" references="_iRb64LcvEeew6v85q-xBGw"/>
+            <language></language>
+            <body>&quot;win&quot;</body>
+          </argument>
+        </message>
         <message xmi:id="_gJwVVbcyEeew6v85q-xBGw" name="verifieResultat" messageSort="reply" receiveEvent="_gJ6GULcyEeew6v85q-xBGw" sendEvent="_gJwVVLcyEeew6v85q-xBGw" connector="_cQ6YU7cuEeew6v85q-xBGw"/>
         <message xmi:id="_hn8KkLcyEeew6v85q-xBGw" name="incrementerResultat" receiveEvent="_hn8KkrcyEeew6v85q-xBGw" sendEvent="_hn8KkbcyEeew6v85q-xBGw" connector="_cQ6YU7cuEeew6v85q-xBGw"/>
         <message xmi:id="_hoF7kbcyEeew6v85q-xBGw" name="incrementerResultat" messageSort="reply" receiveEvent="_hoF7krcyEeew6v85q-xBGw" sendEvent="_hoF7kLcyEeew6v85q-xBGw" connector="_cQ6YU7cuEeew6v85q-xBGw"/>
-        <message xmi:id="_mbHlsLcyEeew6v85q-xBGw" name="verifieDroitPack" receiveEvent="_mbHlsrcyEeew6v85q-xBGw" sendEvent="_mbHlsbcyEeew6v85q-xBGw" connector="_cQ6YU7cuEeew6v85q-xBGw"/>
+        <message xmi:id="_mbHlsLcyEeew6v85q-xBGw" name="verifieDroitPack" receiveEvent="_mbHlsrcyEeew6v85q-xBGw" sendEvent="_mbHlsbcyEeew6v85q-xBGw" connector="_cQ6YU7cuEeew6v85q-xBGw">
+          <argument xmi:type="uml:OpaqueExpression" xmi:id="_wOYWELdfEeew6v85q-xBGw">
+            <eAnnotations xmi:id="_wOYWEbdfEeew6v85q-xBGw" source="Parameter" references="_EmSEILcwEeew6v85q-xBGw"/>
+            <language></language>
+            <body>&quot;bob&quot;</body>
+          </argument>
+          <argument xmi:type="uml:OpaqueExpression" xmi:id="_xkaU4LdfEeew6v85q-xBGw">
+            <eAnnotations xmi:id="_xkaU4bdfEeew6v85q-xBGw" source="Parameter" references="_KTjI8LcwEeew6v85q-xBGw"/>
+            <language></language>
+            <body>12</body>
+          </argument>
+          <argument xmi:type="uml:OpaqueExpression" xmi:id="_y3qsgLdfEeew6v85q-xBGw">
+            <eAnnotations xmi:id="_y3rTkLdfEeew6v85q-xBGw" source="Parameter" references="_OiaWELcwEeew6v85q-xBGw"/>
+            <language></language>
+            <body>10/07/17 23:22</body>
+          </argument>
+        </message>
         <message xmi:id="_mbHltbcyEeew6v85q-xBGw" name="verifieDroitPack" messageSort="reply" receiveEvent="_mbQvoLcyEeew6v85q-xBGw" sendEvent="_mbHltLcyEeew6v85q-xBGw" connector="_cQ6YU7cuEeew6v85q-xBGw"/>
-        <message xmi:id="_odg7QLcyEeew6v85q-xBGw" name="offrePack" receiveEvent="_odg7QrcyEeew6v85q-xBGw" sendEvent="_odg7QbcyEeew6v85q-xBGw" connector="_cQ6YU7cuEeew6v85q-xBGw"/>
+        <message xmi:id="_odg7QLcyEeew6v85q-xBGw" name="offrePack" receiveEvent="_odg7QrcyEeew6v85q-xBGw" sendEvent="_odg7QbcyEeew6v85q-xBGw" connector="_cQ6YU7cuEeew6v85q-xBGw">
+          <argument xmi:type="uml:OpaqueExpression" xmi:id="_F40pQLdgEeew6v85q-xBGw">
+            <eAnnotations xmi:id="_F40pQbdgEeew6v85q-xBGw" source="Parameter" references="_02-dMLcwEeew6v85q-xBGw"/>
+            <language></language>
+            <body>&quot;bob&quot;</body>
+          </argument>
+        </message>
         <message xmi:id="_odqsQLcyEeew6v85q-xBGw" name="offrePack" messageSort="reply" receiveEvent="_odrTULcyEeew6v85q-xBGw" sendEvent="_odg7RLcyEeew6v85q-xBGw" connector="_cQ6YU7cuEeew6v85q-xBGw"/>
-        <message xmi:id="_rBZNQLcyEeew6v85q-xBGw" name="resetDroitPack" receiveEvent="_rBZNQrcyEeew6v85q-xBGw" sendEvent="_rBZNQbcyEeew6v85q-xBGw" connector="_cQ6YU7cuEeew6v85q-xBGw"/>
+        <message xmi:id="_rBZNQLcyEeew6v85q-xBGw" name="resetDroitPack" receiveEvent="_rBZNQrcyEeew6v85q-xBGw" sendEvent="_rBZNQbcyEeew6v85q-xBGw" connector="_cQ6YU7cuEeew6v85q-xBGw">
+          <argument xmi:type="uml:OpaqueExpression" xmi:id="_IC57MLdgEeew6v85q-xBGw">
+            <eAnnotations xmi:id="_IC6iQLdgEeew6v85q-xBGw" source="Parameter" references="_K7IQ4LcxEeew6v85q-xBGw"/>
+            <language></language>
+            <body>&quot;bob&quot;</body>
+          </argument>
+        </message>
         <message xmi:id="_rBZNRbcyEeew6v85q-xBGw" name="resetDroitPack" messageSort="reply" receiveEvent="_rBZNRrcyEeew6v85q-xBGw" sendEvent="_rBZNRLcyEeew6v85q-xBGw" connector="_cQ6YU7cuEeew6v85q-xBGw"/>
         <message xmi:id="_tRp_sLcyEeew6v85q-xBGw" name="afficheRejouer" receiveEvent="_tRp_srcyEeew6v85q-xBGw" sendEvent="_tRp_sbcyEeew6v85q-xBGw" connector="_cQ6YU7cuEeew6v85q-xBGw"/>
         <message xmi:id="_tRp_tbcyEeew6v85q-xBGw" name="afficheRejouer" messageSort="reply" receiveEvent="_tRp_trcyEeew6v85q-xBGw" sendEvent="_tRp_tLcyEeew6v85q-xBGw" connector="_cQ6YU7cuEeew6v85q-xBGw"/>
@@ -2158,9 +2209,6 @@
                 </children>
                 <children xmi:type="umlnotation:UMLShape" xmi:id="_vtydWrctEeew6v85q-xBGw" element="_vtlo6bctEeew6v85q-xBGw" fontName="Segoe UI" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vtydW7ctEeew6v85q-xBGw" x="-1" y="1143" height="1143"/>
-                </children>
-                <children xmi:type="umlnotation:UMLShape" xmi:id="_vtydXLctEeew6v85q-xBGw" element="_vtlo7rctEeew6v85q-xBGw" fontName="Segoe UI" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vtydXbctEeew6v85q-xBGw" x="-1" y="1143" height="1143"/>
                 </children>
               </children>
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_tHP4xbctEeew6v85q-xBGw" type="Name"/>
@@ -2250,7 +2298,7 @@
               <children xmi:type="notation:DecorationNode" xmi:id="_vtydn7ctEeew6v85q-xBGw" type="MessageNameLabel">
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_vtydoLctEeew6v85q-xBGw" type="Stereotype"/>
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_vtydobctEeew6v85q-xBGw" type="Name"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vtydorctEeew6v85q-xBGw" x="-28" y="-2021"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vtydorctEeew6v85q-xBGw" x="93" y="-3668"/>
               </children>
               <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vtydo7ctEeew6v85q-xBGw" points="[7, 14, 7, -269]$[802, 14, 802, -269]$[802, 283, 802, 0]$[7, 283, 7, 0]"/>
               <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vtydpLctEeew6v85q-xBGw" id="-1709112487:511"/>
@@ -2260,7 +2308,7 @@
               <children xmi:type="notation:DecorationNode" xmi:id="_vtydp7ctEeew6v85q-xBGw" type="MessageNameLabel">
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_vtydqLctEeew6v85q-xBGw" type="Stereotype"/>
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_vtydqbctEeew6v85q-xBGw" type="Name"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vtydqrctEeew6v85q-xBGw" x="-58" y="-1898"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vtydqrctEeew6v85q-xBGw" x="-26" y="-3147"/>
               </children>
               <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vtydq7ctEeew6v85q-xBGw" points="[0, 0, 0, -13]$[0, 13, 0, 0]"/>
               <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vtydrLctEeew6v85q-xBGw" id="-1709112487:881"/>
@@ -2330,7 +2378,7 @@
               <children xmi:type="notation:DecorationNode" xmi:id="_vtyd37ctEeew6v85q-xBGw" type="MessageNameLabel">
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_vtyd4LctEeew6v85q-xBGw" type="Stereotype"/>
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_vtyd4bctEeew6v85q-xBGw" type="Name"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vtyd4rctEeew6v85q-xBGw" x="22" y="-3116"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vtyd4rctEeew6v85q-xBGw" x="26" y="-4277"/>
               </children>
               <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vtyd47ctEeew6v85q-xBGw" points="[0, 0, 0, -22]$[0, 22, 0, 0]"/>
               <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vtyd5LctEeew6v85q-xBGw" id="-1709112487:268"/>
@@ -2340,7 +2388,7 @@
               <children xmi:type="notation:DecorationNode" xmi:id="_vtyd57ctEeew6v85q-xBGw" type="MessageNameLabel">
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_vtyd6LctEeew6v85q-xBGw" type="Stereotype"/>
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_vtyd6bctEeew6v85q-xBGw" type="Name"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vtyd6rctEeew6v85q-xBGw" y="-2208"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vtyd6rctEeew6v85q-xBGw" x="4" y="-3342"/>
               </children>
               <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vtyd67ctEeew6v85q-xBGw" points="[0, 0, 0, -12]$[0, 12, 0, 0]"/>
               <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vtyd7LctEeew6v85q-xBGw" id="-1709112487:881"/>
@@ -2363,7 +2411,7 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vtyd-rctEeew6v85q-xBGw" y="317"/>
               </children>
               <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vtyd-7ctEeew6v85q-xBGw" points="[0, 0, 909, 0]$[-909, 0, 0, 0]"/>
-              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vtyd_LctEeew6v85q-xBGw" id="-1709112487:846"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vtyd_LctEeew6v85q-xBGw" id="-1709112487:440"/>
               <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vtyd_bctEeew6v85q-xBGw" id="-891390728:0"/>
             </edges>
             <edges xmi:type="umlnotation:UMLConnector" xmi:id="_vtyd_rctEeew6v85q-xBGw" element="_vtwoALctEeew6v85q-xBGw" source="_vtydPbctEeew6v85q-xBGw" target="_vtydPbctEeew6v85q-xBGw" fontName="Segoe UI" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -2406,25 +2454,55 @@
               <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vtyeHLctEeew6v85q-xBGw" id="-1709112487:881"/>
               <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vtyeHbctEeew6v85q-xBGw" id="-891390728:176"/>
             </edges>
-            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_vtyeHrctEeew6v85q-xBGw" element="_vtwoA7ctEeew6v85q-xBGw" source="_vtydPbctEeew6v85q-xBGw" target="_vtydPbctEeew6v85q-xBGw" fontName="Segoe UI" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
-              <children xmi:type="notation:DecorationNode" xmi:id="_vtyeH7ctEeew6v85q-xBGw" type="MessageNameLabel">
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vtyeILctEeew6v85q-xBGw" type="Stereotype"/>
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vtyeIbctEeew6v85q-xBGw" type="Name"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vtyeIrctEeew6v85q-xBGw" x="-41" y="-1691" width="3866" height="368"/>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_rfZZELdMEeew6v85q-xBGw" element="_rdjmALdMEeew6v85q-xBGw" source="_vtydPbctEeew6v85q-xBGw" target="_vtydPbctEeew6v85q-xBGw" fontName="Segoe UI" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_rfZZErdMEeew6v85q-xBGw" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_rfb1ULdMEeew6v85q-xBGw" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_rfb1UbdMEeew6v85q-xBGw" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rfZZE7dMEeew6v85q-xBGw" x="102" y="-1234"/>
               </children>
-              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vtyeI7ctEeew6v85q-xBGw" points="[0, 0, 0, -19]$[0, 19, 0, 0]"/>
-              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vtyeJLctEeew6v85q-xBGw" id="-1709112487:423"/>
-              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vtyeJbctEeew6v85q-xBGw" id="-891390728:265"/>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rfZZEbdMEeew6v85q-xBGw" points="[0, 0, 0, -15]$[0, 15, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rfb1UrdMEeew6v85q-xBGw" id="3005:141"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rfb1U7dMEeew6v85q-xBGw" id="3028:265"/>
             </edges>
-            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_vtyeJrctEeew6v85q-xBGw" element="_vtxPELctEeew6v85q-xBGw" source="_vtydPbctEeew6v85q-xBGw" target="_vtydPbctEeew6v85q-xBGw" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
-              <children xmi:type="notation:DecorationNode" xmi:id="_vtyeJ7ctEeew6v85q-xBGw" type="MessageNameLabel">
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vtyeKLctEeew6v85q-xBGw" type="Stereotype"/>
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vtyeKbctEeew6v85q-xBGw" type="Name"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vtyeKrctEeew6v85q-xBGw" x="-35" y="-1731"/>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_rgkdwLdMEeew6v85q-xBGw" element="_rdjmBbdMEeew6v85q-xBGw" source="_vtydPbctEeew6v85q-xBGw" target="_vtydPbctEeew6v85q-xBGw" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_rguOwLdMEeew6v85q-xBGw" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_rguOwrdMEeew6v85q-xBGw" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_rguOw7dMEeew6v85q-xBGw" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rguOwbdMEeew6v85q-xBGw" x="-17" y="-1234"/>
               </children>
-              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vtyeK7ctEeew6v85q-xBGw" points="[0, 0, 0, -13]$[0, 13, 0, 0]"/>
-              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vtyeLLctEeew6v85q-xBGw" id="-1709112487:881"/>
-              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vtyeLbctEeew6v85q-xBGw" id="-891390728:176"/>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rgkdwbdMEeew6v85q-xBGw" points="[0, 0, 0, -10]$[0, 10, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rgu10LdMEeew6v85q-xBGw" id="3031:881"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rgu10bdMEeew6v85q-xBGw" id="3032:176"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_zssxsLdMEeew6v85q-xBGw" element="_zqMQQLdMEeew6v85q-xBGw" source="_vtydNrctEeew6v85q-xBGw" target="_vtydPbctEeew6v85q-xBGw" fontName="Segoe UI" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_zssxsrdMEeew6v85q-xBGw" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_zssxtLdMEeew6v85q-xBGw" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_zssxtbdMEeew6v85q-xBGw" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zssxs7dMEeew6v85q-xBGw" y="-211"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zssxsbdMEeew6v85q-xBGw" points="[0, 0, -737, 0]$[737, 0, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zs4X4LdMEeew6v85q-xBGw" id="3212:440"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zs4X4bdMEeew6v85q-xBGw" id="3256:0"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_ztW5ALdMEeew6v85q-xBGw" element="_zqWBQLdMEeew6v85q-xBGw" source="_vtydPbctEeew6v85q-xBGw" target="_vtydNrctEeew6v85q-xBGw" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_ztW5ArdMEeew6v85q-xBGw" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_ztW5BLdMEeew6v85q-xBGw" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_ztW5BbdMEeew6v85q-xBGw" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ztW5A7dMEeew6v85q-xBGw" y="317"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ztW5AbdMEeew6v85q-xBGw" points="[0, 0, 737, 0]$[-737, 0, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ztW5BrdMEeew6v85q-xBGw" id="3257:335"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ztW5B7dMEeew6v85q-xBGw" id="3258:0"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_5S9PkLdMEeew6v85q-xBGw" element="_5QP50LdMEeew6v85q-xBGw" source="_vtydPbctEeew6v85q-xBGw" target="_vtydPbctEeew6v85q-xBGw" fontName="Segoe UI" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_5S9PkrdMEeew6v85q-xBGw" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_5S9PlLdMEeew6v85q-xBGw" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_5S9PlbdMEeew6v85q-xBGw" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5S9Pk7dMEeew6v85q-xBGw" y="-211"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5S9PkbdMEeew6v85q-xBGw" points="[0, 0, 0, -19]$[0, 19, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5THAkLdMEeew6v85q-xBGw" id="3259:212"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5THAkbdMEeew6v85q-xBGw" id="3321:335"/>
             </edges>
           </contents>
         </eAnnotations>
@@ -2436,8 +2514,8 @@
           <end xmi:id="_vtydNLctEeew6v85q-xBGw" role="_vtSt87ctEeew6v85q-xBGw"/>
           <end xmi:id="_vtydNbctEeew6v85q-xBGw" role="_vtSt9LctEeew6v85q-xBGw"/>
         </ownedConnector>
-        <lifeline xmi:id="_vtSt8bctEeew6v85q-xBGw" name="joueur" represents="_vtSt9LctEeew6v85q-xBGw" coveredBy="_vtSt9bctEeew6v85q-xBGw _vtSt_rctEeew6v85q-xBGw _vtSt_7ctEeew6v85q-xBGw _vtb35LctEeew6v85q-xBGw _vtb35bctEeew6v85q-xBGw _vtb37rctEeew6v85q-xBGw _vtb377ctEeew6v85q-xBGw _vtb3-LctEeew6v85q-xBGw _vtb3-bctEeew6v85q-xBGw _vtlo8rctEeew6v85q-xBGw"/>
-        <lifeline xmi:id="_vtSt8rctEeew6v85q-xBGw" name="stoneHearth" represents="_vtSt87ctEeew6v85q-xBGw" coveredBy="_vtSt9rctEeew6v85q-xBGw _vtSt97ctEeew6v85q-xBGw _vtSt_bctEeew6v85q-xBGw _vtSt-LctEeew6v85q-xBGw _vtSt-bctEeew6v85q-xBGw _vtSt-rctEeew6v85q-xBGw _vtSt-7ctEeew6v85q-xBGw _vtSt_LctEeew6v85q-xBGw _vtSuALctEeew6v85q-xBGw _vtSuAbctEeew6v85q-xBGw _vtb347ctEeew6v85q-xBGw _vtSuArctEeew6v85q-xBGw _vtSuA7ctEeew6v85q-xBGw _vtSuBLctEeew6v85q-xBGw _vtSuBbctEeew6v85q-xBGw _vtSuBrctEeew6v85q-xBGw _vtSuB7ctEeew6v85q-xBGw _vtSuCLctEeew6v85q-xBGw _vtb34LctEeew6v85q-xBGw _vtb34bctEeew6v85q-xBGw _vtb34rctEeew6v85q-xBGw _vtb35rctEeew6v85q-xBGw _vtb357ctEeew6v85q-xBGw _vtb37bctEeew6v85q-xBGw _vtb36LctEeew6v85q-xBGw _vtb36bctEeew6v85q-xBGw _vtb36rctEeew6v85q-xBGw _vtb367ctEeew6v85q-xBGw _vtb37LctEeew6v85q-xBGw _vtb38LctEeew6v85q-xBGw _vtb38bctEeew6v85q-xBGw _vtb397ctEeew6v85q-xBGw _vtb38rctEeew6v85q-xBGw _vtb387ctEeew6v85q-xBGw _vtb39LctEeew6v85q-xBGw _vtb39bctEeew6v85q-xBGw _vtb39rctEeew6v85q-xBGw _vtlo4LctEeew6v85q-xBGw _vtlo4bctEeew6v85q-xBGw _vtlo8bctEeew6v85q-xBGw _vtlo4rctEeew6v85q-xBGw _vtlo47ctEeew6v85q-xBGw _vtlo5LctEeew6v85q-xBGw _vtlo5bctEeew6v85q-xBGw _vtlo5rctEeew6v85q-xBGw _vtlo57ctEeew6v85q-xBGw _vtlo6LctEeew6v85q-xBGw _vtlo6bctEeew6v85q-xBGw _vtlo6rctEeew6v85q-xBGw _vtlo67ctEeew6v85q-xBGw _vtlo7LctEeew6v85q-xBGw _vtlo7bctEeew6v85q-xBGw _vtlo7rctEeew6v85q-xBGw _vtlo77ctEeew6v85q-xBGw _vtlo8LctEeew6v85q-xBGw"/>
+        <lifeline xmi:id="_vtSt8bctEeew6v85q-xBGw" name="joueur" represents="_vtSt9LctEeew6v85q-xBGw" coveredBy="_vtSt9bctEeew6v85q-xBGw _vtSt_rctEeew6v85q-xBGw _vtSt_7ctEeew6v85q-xBGw _vtb35LctEeew6v85q-xBGw _vtb35bctEeew6v85q-xBGw _vtb37rctEeew6v85q-xBGw _vtb377ctEeew6v85q-xBGw _vtb3-LctEeew6v85q-xBGw _vtb3-bctEeew6v85q-xBGw _vtlo8rctEeew6v85q-xBGw _zqMQQbdMEeew6v85q-xBGw _zqWBQbdMEeew6v85q-xBGw"/>
+        <lifeline xmi:id="_vtSt8rctEeew6v85q-xBGw" name="stoneHearth" represents="_vtSt87ctEeew6v85q-xBGw" coveredBy="_vtSt9rctEeew6v85q-xBGw _vtSt97ctEeew6v85q-xBGw _vtSt_bctEeew6v85q-xBGw _vtSt-LctEeew6v85q-xBGw _vtSt-bctEeew6v85q-xBGw _vtSt-rctEeew6v85q-xBGw _vtSt-7ctEeew6v85q-xBGw _vtSt_LctEeew6v85q-xBGw _vtSuALctEeew6v85q-xBGw _vtSuAbctEeew6v85q-xBGw _vtb347ctEeew6v85q-xBGw _vtSuArctEeew6v85q-xBGw _vtSuA7ctEeew6v85q-xBGw _vtSuBLctEeew6v85q-xBGw _vtSuBbctEeew6v85q-xBGw _vtSuBrctEeew6v85q-xBGw _vtSuB7ctEeew6v85q-xBGw _vtSuCLctEeew6v85q-xBGw _vtb34LctEeew6v85q-xBGw _vtb34bctEeew6v85q-xBGw _vtb34rctEeew6v85q-xBGw _vtb35rctEeew6v85q-xBGw _vtb357ctEeew6v85q-xBGw _vtb37bctEeew6v85q-xBGw _vtb36LctEeew6v85q-xBGw _vtb36bctEeew6v85q-xBGw _vtb36rctEeew6v85q-xBGw _vtb367ctEeew6v85q-xBGw _vtb37LctEeew6v85q-xBGw _vtb38LctEeew6v85q-xBGw _vtb38bctEeew6v85q-xBGw _vtb397ctEeew6v85q-xBGw _vtb38rctEeew6v85q-xBGw _vtb387ctEeew6v85q-xBGw _vtb39LctEeew6v85q-xBGw _vtb39bctEeew6v85q-xBGw _vtb39rctEeew6v85q-xBGw _vtlo4LctEeew6v85q-xBGw _vtlo4bctEeew6v85q-xBGw _vtlo8bctEeew6v85q-xBGw _vtlo4rctEeew6v85q-xBGw _vtlo47ctEeew6v85q-xBGw _vtlo5LctEeew6v85q-xBGw _vtlo5bctEeew6v85q-xBGw _vtlo5rctEeew6v85q-xBGw _vtlo57ctEeew6v85q-xBGw _vtlo6LctEeew6v85q-xBGw _vtlo6bctEeew6v85q-xBGw _vtlo6rctEeew6v85q-xBGw _vtlo67ctEeew6v85q-xBGw _rdjmAbdMEeew6v85q-xBGw _rdjmArdMEeew6v85q-xBGw _rdjmA7dMEeew6v85q-xBGw _rdjmBLdMEeew6v85q-xBGw _rdjmBrdMEeew6v85q-xBGw _zqMQQrdMEeew6v85q-xBGw _zqMQQ7dMEeew6v85q-xBGw _zqMQRLdMEeew6v85q-xBGw _5QP50bdMEeew6v85q-xBGw _5QP50rdMEeew6v85q-xBGw _5QP507dMEeew6v85q-xBGw _5QP51LdMEeew6v85q-xBGw _5QP51rdMEeew6v85q-xBGw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vtSt9bctEeew6v85q-xBGw" covered="_vtSt8bctEeew6v85q-xBGw" event="_YF9JQLUJEeef7JT-d8nLMA" message="_vtx2ILctEeew6v85q-xBGw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vtSt9rctEeew6v85q-xBGw" covered="_vtSt8rctEeew6v85q-xBGw" event="_YF9wULUJEeef7JT-d8nLMA" message="_vtx2ILctEeew6v85q-xBGw"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_vtSt97ctEeew6v85q-xBGw" visibility="public" covered="_vtSt8rctEeew6v85q-xBGw" start="_vtSt9rctEeew6v85q-xBGw" finish="_vtSt_bctEeew6v85q-xBGw"/>
@@ -2496,13 +2574,23 @@
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_vtlo6bctEeew6v85q-xBGw" covered="_vtSt8rctEeew6v85q-xBGw" start="_vtlo6LctEeew6v85q-xBGw" finish="_vtlo6rctEeew6v85q-xBGw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vtlo6rctEeew6v85q-xBGw" covered="_vtSt8rctEeew6v85q-xBGw" event="_FYbWUbUNEeef7JT-d8nLMA" message="_vtlpALctEeew6v85q-xBGw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vtlo67ctEeew6v85q-xBGw" covered="_vtSt8rctEeew6v85q-xBGw" event="_FYbWUrUNEeef7JT-d8nLMA" message="_vtlpALctEeew6v85q-xBGw"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vtlo7LctEeew6v85q-xBGw" covered="_vtSt8rctEeew6v85q-xBGw" event="_e4cM4bUNEeef7JT-d8nLMA" message="_vtwoA7ctEeew6v85q-xBGw"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vtlo7bctEeew6v85q-xBGw" covered="_vtSt8rctEeew6v85q-xBGw" event="_e4cM4rUNEeef7JT-d8nLMA" message="_vtwoA7ctEeew6v85q-xBGw"/>
-        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_vtlo7rctEeew6v85q-xBGw" covered="_vtSt8rctEeew6v85q-xBGw" start="_vtlo7bctEeew6v85q-xBGw" finish="_vtlo77ctEeew6v85q-xBGw"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vtlo77ctEeew6v85q-xBGw" covered="_vtSt8rctEeew6v85q-xBGw" event="_e4cM4bUNEeef7JT-d8nLMA" message="_vtxPELctEeew6v85q-xBGw"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vtlo8LctEeew6v85q-xBGw" covered="_vtSt8rctEeew6v85q-xBGw" event="_e4cM4rUNEeef7JT-d8nLMA" message="_vtxPELctEeew6v85q-xBGw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rdjmAbdMEeew6v85q-xBGw" covered="_vtSt8rctEeew6v85q-xBGw" event="_fKNZsLUKEeef7JT-d8nLMA" message="_rdjmALdMEeew6v85q-xBGw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rdjmArdMEeew6v85q-xBGw" covered="_vtSt8rctEeew6v85q-xBGw" event="_fKOAwLUKEeef7JT-d8nLMA" message="_rdjmALdMEeew6v85q-xBGw"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_rdjmA7dMEeew6v85q-xBGw" covered="_vtSt8rctEeew6v85q-xBGw" start="_rdjmArdMEeew6v85q-xBGw" finish="_rdjmBLdMEeew6v85q-xBGw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rdjmBLdMEeew6v85q-xBGw" covered="_vtSt8rctEeew6v85q-xBGw" event="_fKNZsLUKEeef7JT-d8nLMA" message="_rdjmBbdMEeew6v85q-xBGw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rdjmBrdMEeew6v85q-xBGw" covered="_vtSt8rctEeew6v85q-xBGw" event="_fKOAwLUKEeef7JT-d8nLMA" message="_rdjmBbdMEeew6v85q-xBGw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vtlo8bctEeew6v85q-xBGw" covered="_vtSt8rctEeew6v85q-xBGw" event="_1QELobUMEeef7JT-d8nLMA" message="_vtlo9LctEeew6v85q-xBGw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vtlo8rctEeew6v85q-xBGw" covered="_vtSt8bctEeew6v85q-xBGw" event="_1QELorUMEeef7JT-d8nLMA" message="_vtlo9LctEeew6v85q-xBGw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zqMQQbdMEeew6v85q-xBGw" covered="_vtSt8bctEeew6v85q-xBGw" event="_yJdcIbcyEeew6v85q-xBGw" message="_zqMQQLdMEeew6v85q-xBGw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zqMQQrdMEeew6v85q-xBGw" covered="_vtSt8rctEeew6v85q-xBGw" event="_yJdcIrcyEeew6v85q-xBGw" message="_zqMQQLdMEeew6v85q-xBGw"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_zqMQQ7dMEeew6v85q-xBGw" covered="_vtSt8rctEeew6v85q-xBGw" start="_zqMQQrdMEeew6v85q-xBGw" finish="_zqMQRLdMEeew6v85q-xBGw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5QP50bdMEeew6v85q-xBGw" covered="_vtSt8rctEeew6v85q-xBGw" event="_1EUqwbcyEeew6v85q-xBGw" message="_5QP50LdMEeew6v85q-xBGw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5QP50rdMEeew6v85q-xBGw" covered="_vtSt8rctEeew6v85q-xBGw" event="_1EUqwrcyEeew6v85q-xBGw" message="_5QP50LdMEeew6v85q-xBGw"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_5QP507dMEeew6v85q-xBGw" covered="_vtSt8rctEeew6v85q-xBGw" start="_5QP50rdMEeew6v85q-xBGw" finish="_5QP51LdMEeew6v85q-xBGw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5QP51LdMEeew6v85q-xBGw" covered="_vtSt8rctEeew6v85q-xBGw" event="_1EUqwbcyEeew6v85q-xBGw" message="_5QP51bdMEeew6v85q-xBGw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5QP51rdMEeew6v85q-xBGw" covered="_vtSt8rctEeew6v85q-xBGw" event="_1EUqwrcyEeew6v85q-xBGw" message="_5QP51bdMEeew6v85q-xBGw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zqMQRLdMEeew6v85q-xBGw" covered="_vtSt8rctEeew6v85q-xBGw" event="_yJdcIbcyEeew6v85q-xBGw" message="_zqWBQLdMEeew6v85q-xBGw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zqWBQbdMEeew6v85q-xBGw" covered="_vtSt8bctEeew6v85q-xBGw" event="_yJdcIrcyEeew6v85q-xBGw" message="_zqWBQLdMEeew6v85q-xBGw"/>
         <message xmi:id="_vtlo87ctEeew6v85q-xBGw" name="afficheDeck" messageSort="reply" receiveEvent="_vtSuBrctEeew6v85q-xBGw" sendEvent="_vtSuBbctEeew6v85q-xBGw" connector="_vtydMLctEeew6v85q-xBGw"/>
         <message xmi:id="_vtlo9LctEeew6v85q-xBGw" name="validerDeck" messageSort="reply" receiveEvent="_vtlo8rctEeew6v85q-xBGw" sendEvent="_vtlo8bctEeew6v85q-xBGw" connector="_vtydM7ctEeew6v85q-xBGw"/>
         <message xmi:id="_vtlo9bctEeew6v85q-xBGw" name="selectionnerCarte" receiveEvent="_vtb38LctEeew6v85q-xBGw" sendEvent="_vtb377ctEeew6v85q-xBGw" connector="_vtydM7ctEeew6v85q-xBGw">
@@ -2526,10 +2614,28 @@
         <message xmi:id="_vtlo_7ctEeew6v85q-xBGw" name="gererDeck" messageSort="reply" receiveEvent="_vtSt_rctEeew6v85q-xBGw" sendEvent="_vtSt_bctEeew6v85q-xBGw" connector="_vtydM7ctEeew6v85q-xBGw"/>
         <message xmi:id="_vtlpALctEeew6v85q-xBGw" name="enregistrerDeck" messageSort="reply" receiveEvent="_vtlo67ctEeew6v85q-xBGw" sendEvent="_vtlo6rctEeew6v85q-xBGw" connector="_vtydMLctEeew6v85q-xBGw"/>
         <message xmi:id="_vtuy0LctEeew6v85q-xBGw" name="afficheDecks" receiveEvent="_vtSt-bctEeew6v85q-xBGw" sendEvent="_vtSt-LctEeew6v85q-xBGw" connector="_vtydMLctEeew6v85q-xBGw"/>
-        <message xmi:id="_vtvZ4LctEeew6v85q-xBGw" name="sauvegardeTempDeck" messageSort="reply" receiveEvent="_vtb34rctEeew6v85q-xBGw" sendEvent="_vtb34bctEeew6v85q-xBGw" connector="_vtydMLctEeew6v85q-xBGw"/>
+        <message xmi:id="_vtvZ4LctEeew6v85q-xBGw" name="sauvegardeTempDeck" messageSort="reply" receiveEvent="_vtb34rctEeew6v85q-xBGw" sendEvent="_vtb34bctEeew6v85q-xBGw" connector="_vtydMLctEeew6v85q-xBGw">
+          <argument xmi:type="uml:OpaqueExpression" xmi:id="_KMYkcLdFEeew6v85q-xBGw">
+            <eAnnotations xmi:id="_KMYkcbdFEeew6v85q-xBGw" source="Parameter" references="_j3h-4LdDEeew6v85q-xBGw"/>
+            <language></language>
+            <body>tmp</body>
+          </argument>
+        </message>
         <message xmi:id="_vtvZ4bctEeew6v85q-xBGw" name="enregistrerCarte" messageSort="reply" receiveEvent="_vtb39rctEeew6v85q-xBGw" sendEvent="_vtb39bctEeew6v85q-xBGw" connector="_vtydMLctEeew6v85q-xBGw"/>
-        <message xmi:id="_vtvZ4rctEeew6v85q-xBGw" name="sauvegardeTempDeck" receiveEvent="_vtSuCLctEeew6v85q-xBGw" sendEvent="_vtSuB7ctEeew6v85q-xBGw" connector="_vtydMLctEeew6v85q-xBGw"/>
-        <message xmi:id="_vtwA8LctEeew6v85q-xBGw" name="ajouterCarte" receiveEvent="_vtb35rctEeew6v85q-xBGw" sendEvent="_vtb35bctEeew6v85q-xBGw" connector="_vtydM7ctEeew6v85q-xBGw"/>
+        <message xmi:id="_vtvZ4rctEeew6v85q-xBGw" name="sauvegardeTempDeck" receiveEvent="_vtSuCLctEeew6v85q-xBGw" sendEvent="_vtSuB7ctEeew6v85q-xBGw" connector="_vtydMLctEeew6v85q-xBGw">
+          <argument xmi:type="uml:OpaqueExpression" xmi:id="_wrOeYLdEEeew6v85q-xBGw">
+            <eAnnotations xmi:id="_wrOeYbdEEeew6v85q-xBGw" source="Parameter" references="_j3h-4LdDEeew6v85q-xBGw"/>
+            <language></language>
+            <body>&quot;MonSuperDeck&quot;</body>
+          </argument>
+        </message>
+        <message xmi:id="_vtwA8LctEeew6v85q-xBGw" name="ajouterCarte" receiveEvent="_vtb35rctEeew6v85q-xBGw" sendEvent="_vtb35bctEeew6v85q-xBGw" connector="_vtydM7ctEeew6v85q-xBGw">
+          <argument xmi:type="uml:OpaqueExpression" xmi:id="_7VBuoLdEEeew6v85q-xBGw">
+            <eAnnotations xmi:id="_7VBuobdEEeew6v85q-xBGw" source="Parameter" references="_zacdsLdEEeew6v85q-xBGw"/>
+            <language></language>
+            <body>5</body>
+          </argument>
+        </message>
         <message xmi:id="_vtwA8bctEeew6v85q-xBGw" name="afficheDecks" messageSort="reply" receiveEvent="_vtSt_LctEeew6v85q-xBGw" sendEvent="_vtSt-7ctEeew6v85q-xBGw" connector="_vtydMLctEeew6v85q-xBGw"/>
         <message xmi:id="_vtwA8rctEeew6v85q-xBGw" name="modifierDeck(&quot;MonSuperDeck&quot;)" receiveEvent="_vtSuALctEeew6v85q-xBGw" sendEvent="_vtSt_7ctEeew6v85q-xBGw" connector="_vtydM7ctEeew6v85q-xBGw">
           <argument xmi:type="uml:OpaqueExpression" xmi:id="_vtwA87ctEeew6v85q-xBGw">
@@ -2545,16 +2651,19 @@
             <body>true</body>
           </argument>
         </message>
-        <message xmi:id="_vtwoA7ctEeew6v85q-xBGw" name="afficheMenuPrincipal" receiveEvent="_vtlo7bctEeew6v85q-xBGw" sendEvent="_vtlo7LctEeew6v85q-xBGw" connector="_vtydMLctEeew6v85q-xBGw"/>
         <message xmi:id="_vtwoBLctEeew6v85q-xBGw" name="afficherCartes" messageSort="reply" receiveEvent="_vtb37LctEeew6v85q-xBGw" sendEvent="_vtb367ctEeew6v85q-xBGw" connector="_vtydMLctEeew6v85q-xBGw"/>
         <message xmi:id="_vtwoBbctEeew6v85q-xBGw" name="modifierDeck(&quot;MonSuperDeck&quot;)" messageSort="reply" receiveEvent="_vtb35LctEeew6v85q-xBGw" sendEvent="_vtb347ctEeew6v85q-xBGw" connector="_vtydM7ctEeew6v85q-xBGw"/>
-        <message xmi:id="_vtxPELctEeew6v85q-xBGw" name="afficheMenuPrincipal" messageSort="reply" receiveEvent="_vtlo8LctEeew6v85q-xBGw" sendEvent="_vtlo77ctEeew6v85q-xBGw" connector="_vtydMLctEeew6v85q-xBGw"/>
         <message xmi:id="_vtxPEbctEeew6v85q-xBGw" name="setDeckValid" messageSort="reply" receiveEvent="_vtlo5rctEeew6v85q-xBGw" sendEvent="_vtlo5bctEeew6v85q-xBGw" connector="_vtydMLctEeew6v85q-xBGw"/>
         <message xmi:id="_vtxPErctEeew6v85q-xBGw" name="enregistrerCarte" receiveEvent="_vtb387ctEeew6v85q-xBGw" sendEvent="_vtb38rctEeew6v85q-xBGw" connector="_vtydMLctEeew6v85q-xBGw">
           <argument xmi:type="uml:OpaqueExpression" xmi:id="_vtxPE7ctEeew6v85q-xBGw">
             <eAnnotations xmi:id="_vtxPFLctEeew6v85q-xBGw" source="Parameter" references="_eNuRYLUMEeef7JT-d8nLMA"/>
             <language></language>
             <body>&quot;Super Dragon&quot;</body>
+          </argument>
+          <argument xmi:type="uml:OpaqueExpression" xmi:id="_BjkUgLdFEeew6v85q-xBGw">
+            <eAnnotations xmi:id="_BjkUgbdFEeew6v85q-xBGw" source="Parameter" references="_-j76oLdEEeew6v85q-xBGw"/>
+            <language></language>
+            <body>5</body>
           </argument>
         </message>
         <message xmi:id="_vtx2ILctEeew6v85q-xBGw" name="gererDeck" receiveEvent="_vtSt9rctEeew6v85q-xBGw" sendEvent="_vtSt9bctEeew6v85q-xBGw" connector="_vtydM7ctEeew6v85q-xBGw">
@@ -2568,6 +2677,12 @@
           </argument>
         </message>
         <message xmi:id="_vtx2JbctEeew6v85q-xBGw" name="afficherCartes" receiveEvent="_vtb36bctEeew6v85q-xBGw" sendEvent="_vtb36LctEeew6v85q-xBGw" connector="_vtydMLctEeew6v85q-xBGw"/>
+        <message xmi:id="_rdjmALdMEeew6v85q-xBGw" name="afficheDecks" receiveEvent="_rdjmArdMEeew6v85q-xBGw" sendEvent="_rdjmAbdMEeew6v85q-xBGw" connector="_vtydMLctEeew6v85q-xBGw"/>
+        <message xmi:id="_rdjmBbdMEeew6v85q-xBGw" name="afficheDecks" messageSort="reply" receiveEvent="_rdjmBrdMEeew6v85q-xBGw" sendEvent="_rdjmBLdMEeew6v85q-xBGw" connector="_vtydMLctEeew6v85q-xBGw"/>
+        <message xmi:id="_zqMQQLdMEeew6v85q-xBGw" name="choisirRetourMenu" receiveEvent="_zqMQQrdMEeew6v85q-xBGw" sendEvent="_zqMQQbdMEeew6v85q-xBGw" connector="_vtydM7ctEeew6v85q-xBGw"/>
+        <message xmi:id="_zqWBQLdMEeew6v85q-xBGw" name="choisirRetourMenu" messageSort="reply" receiveEvent="_zqWBQbdMEeew6v85q-xBGw" sendEvent="_zqMQRLdMEeew6v85q-xBGw" connector="_vtydM7ctEeew6v85q-xBGw"/>
+        <message xmi:id="_5QP50LdMEeew6v85q-xBGw" name="afficheMenu" receiveEvent="_5QP50rdMEeew6v85q-xBGw" sendEvent="_5QP50bdMEeew6v85q-xBGw" connector="_vtydMLctEeew6v85q-xBGw"/>
+        <message xmi:id="_5QP51bdMEeew6v85q-xBGw" name="afficheMenu" messageSort="reply" receiveEvent="_5QP51rdMEeew6v85q-xBGw" sendEvent="_5QP51LdMEeew6v85q-xBGw" connector="_vtydMLctEeew6v85q-xBGw"/>
       </ownedBehavior>
       <ownedAttribute xmi:id="_vtSt87ctEeew6v85q-xBGw" name="stoneHearth" type="_xgHPwKniEeefb59lDY5vmA"/>
       <ownedAttribute xmi:id="_vtSt9LctEeew6v85q-xBGw" name="joueur" type="_SnDtYKnhEeefb59lDY5vmA"/>
