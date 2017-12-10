@@ -4778,19 +4778,13 @@
           <element xsi:nil="true"/>
         </contents>
       </eAnnotations>
-      <packagedElement xmi:type="uml:Class" xmi:id="_mSJVsNtqEeePavp1awWLvA" name="GestDeck"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mSJVsNtqEeePavp1awWLvA" name="GestDeck" clientDependency="_IWBAoNxQEeefsqimcRjSnw">
+        <interfaceRealization xmi:id="_IWBAoNxQEeefsqimcRjSnw" name="implements" supplier="_7eHMsNjDEee71_g7eVtctw" client="_mSJVsNtqEeePavp1awWLvA" contract="_7eHMsNjDEee71_g7eVtctw"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:Component" xmi:id="_AOjRcNdGEeeg1ZqXaVmWJQ" name="CDeck" clientDependency="_p5NnMNtjEeeMoL-CgilKpA">
         <interfaceRealization xmi:id="_p5NnMNtjEeeMoL-CgilKpA" supplier="_7eHMsNjDEee71_g7eVtctw" client="_AOjRcNdGEeeg1ZqXaVmWJQ" contract="_7eHMsNjDEee71_g7eVtctw"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_EIwJYKnkEeefb59lDY5vmA" name="Deck">
-        <ownedAttribute xmi:id="_9CmwoKnkEeefb59lDY5vmA" name="joueur" visibility="private" type="_CMyL8KnkEeefb59lDY5vmA" association="_9CligKnkEeefb59lDY5vmA">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9CmwoqnkEeefb59lDY5vmA" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9CmwoankEeefb59lDY5vmA" value="1"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_AwU_kKnlEeefb59lDY5vmA" name="carte" visibility="private" type="_DVkY8KnkEeefb59lDY5vmA" association="_AwUYgKnlEeefb59lDY5vmA">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AwU_kqnlEeefb59lDY5vmA" value="*"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AwU_kanlEeefb59lDY5vmA"/>
-        </ownedAttribute>
         <ownedAttribute xmi:id="_SCv0ALTlEeef7JT-d8nLMA" name="estValide()" visibility="private">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
         </ownedAttribute>
@@ -4813,17 +4807,9 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rNhlcankEeefb59lDY5vmA" value="1"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rNhlcKnkEeefb59lDY5vmA" value="1"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="_yDO5AKnkEeefb59lDY5vmA" name="collection" visibility="private" type="_LUbs8KnkEeefb59lDY5vmA" association="_yDL1sKnkEeefb59lDY5vmA">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yDQHIankEeefb59lDY5vmA" value="*"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yDQHIKnkEeefb59lDY5vmA"/>
-        </ownedAttribute>
         <ownedAttribute xmi:id="_7dM5EKnkEeefb59lDY5vmA" name="pack" visibility="private" type="_FXLrYKnkEeefb59lDY5vmA" association="_7dJ1wKnkEeefb59lDY5vmA">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7dNgIankEeefb59lDY5vmA" value="*"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7dNgIKnkEeefb59lDY5vmA"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_AwU_k6nlEeefb59lDY5vmA" name="deck" visibility="private" type="_EIwJYKnkEeefb59lDY5vmA" association="_AwUYgKnlEeefb59lDY5vmA">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AwVmoanlEeefb59lDY5vmA" value="*"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AwVmoKnlEeefb59lDY5vmA"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_D7rhQKnlEeefb59lDY5vmA" name="effet" visibility="private" type="_CXd8gKnlEeefb59lDY5vmA" association="_D7qTIKnlEeefb59lDY5vmA">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_D7sIUKnlEeefb59lDY5vmA" value="*"/>
@@ -4847,10 +4833,6 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7dLq8ankEeefb59lDY5vmA" value="*"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7dLq8KnkEeefb59lDY5vmA"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="_n7dY4K0zEee8Tu_zC_kIbg" name="joueur" visibility="private" type="_CMyL8KnkEeefb59lDY5vmA" association="_n7aVkK0zEee8Tu_zC_kIbg">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_n7f1IK0zEee8Tu_zC_kIbg" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_n7fOEK0zEee8Tu_zC_kIbg" value="1"/>
-        </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Enumeration" xmi:id="_gLCvcKnkEeefb59lDY5vmA" name="Categorie">
         <ownedAttribute xmi:id="_rNfwQKnkEeefb59lDY5vmA" name="carte" visibility="private" type="_DVkY8KnkEeefb59lDY5vmA" association="_rNeiIKnkEeefb59lDY5vmA">
@@ -4866,11 +4848,15 @@
         <interfaceRealization xmi:id="_G5wv0NtlEeeMoL-CgilKpA" supplier="_l66XoNmMEeeyf9js_jhaVg" client="_KsEZMNdGEeeg1ZqXaVmWJQ" contract="_l66XoNmMEeeyf9js_jhaVg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_rNeiIKnkEeefb59lDY5vmA" memberEnd="_rNfwQKnkEeefb59lDY5vmA _rNg-YqnkEeefb59lDY5vmA"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_n7aVkK0zEee8Tu_zC_kIbg" memberEnd="_n7dY4K0zEee8Tu_zC_kIbg _n7gcMK0zEee8Tu_zC_kIbg"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_7dJ1wKnkEeefb59lDY5vmA" memberEnd="_7dLD4KnkEeefb59lDY5vmA _7dM5EKnkEeefb59lDY5vmA"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_D7qTIKnlEeefb59lDY5vmA" memberEnd="_D7q6MKnlEeefb59lDY5vmA _D7rhQKnlEeefb59lDY5vmA"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_AwUYgKnlEeefb59lDY5vmA" memberEnd="_AwU_kKnlEeefb59lDY5vmA _AwU_k6nlEeefb59lDY5vmA"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_PHNDoNtrEeePavp1awWLvA" name="GestCarte"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_PHNDoNtrEeePavp1awWLvA" name="GestCarte" clientDependency="_OnipENxQEeefsqimcRjSnw">
+        <interfaceRealization xmi:id="_OnipENxQEeefsqimcRjSnw" name="" supplier="_l66XoNmMEeeyf9js_jhaVg" client="_PHNDoNtrEeePavp1awWLvA" contract="_l66XoNmMEeeyf9js_jhaVg">
+          <eAnnotations xmi:id="_QBHEENxQEeefsqimcRjSnw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_QBHEEdxQEeefsqimcRjSnw" key="implements"/>
+          </eAnnotations>
+        </interfaceRealization>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_bORf8NtnEeePavp1awWLvA" name="joueur">
       <eAnnotations xmi:id="_bOUjQNtnEeePavp1awWLvA" source="uml2.diagrams" references="_bOUjQdtnEeePavp1awWLvA">
@@ -4888,16 +4874,7 @@
         <ownedLiteral xmi:id="_2RKY4LTjEeef7JT-d8nLMA" name="En recherche" classifier="_j0Ic4LTjEeef7JT-d8nLMA"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_CMyL8KnkEeefb59lDY5vmA" name="Joueur">
-        <generalization xmi:id="_wMSlgKnkEeefb59lDY5vmA" general="_LUbs8KnkEeefb59lDY5vmA"/>
-        <ownedAttribute xmi:id="_xMxLEKnkEeefb59lDY5vmA" name="collection" visibility="private" type="_LUbs8KnkEeefb59lDY5vmA" association="_xMwkAKnkEeefb59lDY5vmA">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xMxyIankEeefb59lDY5vmA" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xMxyIKnkEeefb59lDY5vmA" value="1"/>
-        </ownedAttribute>
         <ownedAttribute xmi:id="_UF-rgLdgEeew6v85q-xBGw" name="dateAvantDernierPack" visibility="private"/>
-        <ownedAttribute xmi:id="_9CmJkKnkEeefb59lDY5vmA" name="deck" visibility="private" type="_EIwJYKnkEeefb59lDY5vmA" association="_9CligKnkEeefb59lDY5vmA">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9CmJkqnkEeefb59lDY5vmA" value="*"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9CmJkankEeefb59lDY5vmA"/>
-        </ownedAttribute>
         <ownedAttribute xmi:id="_KPfUsK0yEee8Tu_zC_kIbg" name="rang" visibility="private">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
         </ownedAttribute>
@@ -4909,14 +4886,6 @@
         </ownedAttribute>
         <ownedAttribute xmi:id="_VZDqIK0yEee8Tu_zC_kIbg" name="nbJoyaux" visibility="private">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_n7gcMK0zEee8Tu_zC_kIbg" name="pack" visibility="private" type="_FXLrYKnkEeefb59lDY5vmA" association="_n7aVkK0zEee8Tu_zC_kIbg">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_n7iRYK0zEee8Tu_zC_kIbg" value="*"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_n7hqUK0zEee8Tu_zC_kIbg"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_aylOw7ThEeef7JT-d8nLMA" name="partie" visibility="private" type="_UkdZkLN2EeeBXN5LXPuCwQ" association="_ayiLcLThEeef7JT-d8nLMA">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ayuYsLThEeef7JT-d8nLMA" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aylOxLThEeef7JT-d8nLMA" value="1"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_4aJeo7TjEeef7JT-d8nLMA" name="etat" visibility="private" type="_j0Ic4LTjEeef7JT-d8nLMA" association="_4aAUsLTjEeef7JT-d8nLMA">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4aJepbTjEeef7JT-d8nLMA" value="1"/>
@@ -4934,10 +4903,14 @@
         <interfaceRealization xmi:id="_FK4ooNtkEeeMoL-CgilKpA" supplier="_NfGeINmOEeeyf9js_jhaVg" client="_LvovANdGEeeg1ZqXaVmWJQ" contract="_NfGeINmOEeeyf9js_jhaVg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Usage" xmi:id="_lbJrANtkEeeMoL-CgilKpA" supplier="_zHCPUNdKEeeg1ZqXaVmWJQ" client="_LvovANdGEeeg1ZqXaVmWJQ"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_9CligKnkEeefb59lDY5vmA" memberEnd="_9CmJkKnkEeefb59lDY5vmA _9CmwoKnkEeefb59lDY5vmA"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_xMwkAKnkEeefb59lDY5vmA" memberEnd="_xMxLEKnkEeefb59lDY5vmA _xMxyIqnkEeefb59lDY5vmA"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_4aAUsLTjEeef7JT-d8nLMA" memberEnd="_4aJeoLTjEeef7JT-d8nLMA _4aJeo7TjEeef7JT-d8nLMA"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_Fc46cNtrEeePavp1awWLvA" name="GestJoueur"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Fc46cNtrEeePavp1awWLvA" name="GestJoueur" clientDependency="_DawAgNxQEeefsqimcRjSnw">
+        <interfaceRealization xmi:id="_DawAgNxQEeefsqimcRjSnw" name="" supplier="_NfGeINmOEeeyf9js_jhaVg" client="_Fc46cNtrEeePavp1awWLvA" contract="_NfGeINmOEeeyf9js_jhaVg">
+          <eAnnotations xmi:id="_EJRTYNxQEeefsqimcRjSnw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_EJbEYNxQEeefsqimcRjSnw" key="implements"/>
+          </eAnnotations>
+        </interfaceRealization>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_KaztUNtoEeePavp1awWLvA" name="collection">
       <eAnnotations xmi:id="_Ka9eUNtoEeePavp1awWLvA" source="uml2.diagrams" references="_Ka9eUdtoEeePavp1awWLvA">
@@ -4948,18 +4921,14 @@
       <packagedElement xmi:type="uml:Component" xmi:id="_gf7KUNtoEeePavp1awWLvA" name="CCollection" clientDependency="_tIOuoNtoEeePavp1awWLvA">
         <interfaceRealization xmi:id="_tIOuoNtoEeePavp1awWLvA" supplier="_tdAooNtkEeeMoL-CgilKpA" client="_gf7KUNtoEeePavp1awWLvA" contract="_tdAooNtkEeeMoL-CgilKpA"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_LUbs8KnkEeefb59lDY5vmA" name="Collection">
-        <ownedAttribute xmi:id="_xMxyIqnkEeefb59lDY5vmA" name="joueur" visibility="private" type="_CMyL8KnkEeefb59lDY5vmA" association="_xMwkAKnkEeefb59lDY5vmA">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xMyZMankEeefb59lDY5vmA" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xMyZMKnkEeefb59lDY5vmA" value="1"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_yDND0KnkEeefb59lDY5vmA" name="carte" visibility="private" type="_DVkY8KnkEeefb59lDY5vmA" association="_yDL1sKnkEeefb59lDY5vmA">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yDOR8ankEeefb59lDY5vmA" value="*"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yDOR8KnkEeefb59lDY5vmA"/>
-        </ownedAttribute>
+      <packagedElement xmi:type="uml:Class" xmi:id="_LUbs8KnkEeefb59lDY5vmA" name="Collection"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Jhle8NtrEeePavp1awWLvA" name="GestCollection" clientDependency="_LF1c4NxQEeefsqimcRjSnw">
+        <interfaceRealization xmi:id="_LF1c4NxQEeefsqimcRjSnw" name="" supplier="_tdAooNtkEeeMoL-CgilKpA" client="_Jhle8NtrEeePavp1awWLvA" contract="_tdAooNtkEeeMoL-CgilKpA">
+          <eAnnotations xmi:id="_L7mnQNxQEeefsqimcRjSnw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_L7mnQdxQEeefsqimcRjSnw" key="implements"/>
+          </eAnnotations>
+        </interfaceRealization>
       </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_yDL1sKnkEeefb59lDY5vmA" memberEnd="_yDND0KnkEeefb59lDY5vmA _yDO5AKnkEeefb59lDY5vmA"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_Jhle8NtrEeePavp1awWLvA" name="GestCollection"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_tCWToNtpEeePavp1awWLvA" name="authentification">
       <eAnnotations xmi:id="_tCWTodtpEeePavp1awWLvA" source="uml2.diagrams" references="_tCWTottpEeePavp1awWLvA">
@@ -4970,7 +4939,13 @@
       <packagedElement xmi:type="uml:Component" xmi:id="_Uysq8NdGEeeg1ZqXaVmWJQ" name="CAuthentification" clientDependency="_VkbNcNtlEeeMoL-CgilKpA">
         <interfaceRealization xmi:id="_VkbNcNtlEeeMoL-CgilKpA" supplier="_0zwhwNdIEeeg1ZqXaVmWJQ" client="_Uysq8NdGEeeg1ZqXaVmWJQ" contract="_0zwhwNdIEeeg1ZqXaVmWJQ"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_QpEfANtrEeePavp1awWLvA" name="GestAuthentification"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_QpEfANtrEeePavp1awWLvA" name="GestAuthentification" clientDependency="_UaopENxQEeefsqimcRjSnw">
+        <interfaceRealization xmi:id="_UaopENxQEeefsqimcRjSnw" name="" supplier="_0zwhwNdIEeeg1ZqXaVmWJQ" client="_QpEfANtrEeePavp1awWLvA" contract="_0zwhwNdIEeeg1ZqXaVmWJQ">
+          <eAnnotations xmi:id="_U8NFENxQEeefsqimcRjSnw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_U8NFEdxQEeefsqimcRjSnw" key="implements"/>
+          </eAnnotations>
+        </interfaceRealization>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_xv3LoNtpEeePavp1awWLvA" name="matchmaking">
       <eAnnotations xmi:id="_xv3LodtpEeePavp1awWLvA" source="uml2.diagrams" references="_xv3LottpEeePavp1awWLvA">
@@ -4978,16 +4953,10 @@
           <element xsi:nil="true"/>
         </contents>
       </eAnnotations>
-      <packagedElement xmi:type="uml:Class" xmi:id="_UkdZkLN2EeeBXN5LXPuCwQ" name="Partie">
-        <ownedAttribute xmi:id="_aylOwLThEeef7JT-d8nLMA" name="joueur" visibility="private" type="_CMyL8KnkEeefb59lDY5vmA" association="_ayiLcLThEeef7JT-d8nLMA">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aylOwrThEeef7JT-d8nLMA" value="*"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aylOwbThEeef7JT-d8nLMA"/>
-        </ownedAttribute>
-      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_UkdZkLN2EeeBXN5LXPuCwQ" name="Partie"/>
       <packagedElement xmi:type="uml:Component" xmi:id="_Sl74cNdGEeeg1ZqXaVmWJQ" name="CMatchmaking" clientDependency="_RQmdQNtkEeeMoL-CgilKpA">
         <interfaceRealization xmi:id="_RQmdQNtkEeeMoL-CgilKpA" supplier="_F63JcNm2Eeer66P4LkwRNQ" client="_Sl74cNdGEeeg1ZqXaVmWJQ" contract="_F63JcNm2Eeer66P4LkwRNQ"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_ayiLcLThEeef7JT-d8nLMA" memberEnd="_aylOwLThEeef7JT-d8nLMA _aylOw7ThEeef7JT-d8nLMA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_07s1gNtpEeePavp1awWLvA" name="ihm">
       <eAnnotations xmi:id="_07s1gdtpEeePavp1awWLvA" source="uml2.diagrams" references="_07s1gttpEeePavp1awWLvA">
@@ -5006,7 +4975,13 @@
       <packagedElement xmi:type="uml:Component" xmi:id="_IUKGoNdGEeeg1ZqXaVmWJQ" name="CPaiement" clientDependency="_Qj-yYNtlEeeMoL-CgilKpA">
         <interfaceRealization xmi:id="_Qj-yYNtlEeeMoL-CgilKpA" supplier="_zHCPUNdKEeeg1ZqXaVmWJQ" client="_IUKGoNdGEeeg1ZqXaVmWJQ" contract="_zHCPUNdKEeeg1ZqXaVmWJQ"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_HfnAINtrEeePavp1awWLvA" name="GestPaiement"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_HfnAINtrEeePavp1awWLvA" name="GestPaiement" clientDependency="__Q2L4NxPEeefsqimcRjSnw">
+        <interfaceRealization xmi:id="__Q2L4NxPEeefsqimcRjSnw" name="" supplier="_zHCPUNdKEeeg1ZqXaVmWJQ" client="_HfnAINtrEeePavp1awWLvA" contract="_zHCPUNdKEeeg1ZqXaVmWJQ">
+          <eAnnotations xmi:id="_AbjrgNxQEeefsqimcRjSnw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_AbjrgdxQEeefsqimcRjSnw" key="implements"/>
+          </eAnnotations>
+        </interfaceRealization>
+      </packagedElement>
     </packagedElement>
     <profileApplication xmi:id="_8s9HNKnYEeefb59lDY5vmA">
       <eAnnotations xmi:id="_8s9HNanYEeefb59lDY5vmA" source="http://www.eclipse.org/uml2/2.0.0/UML">
