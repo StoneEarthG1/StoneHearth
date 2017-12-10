@@ -4392,11 +4392,7 @@
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_KHxZUNm3Eeer66P4LkwRNQ" name="SendOperationEvent9" operation="_d134QNmOEeeyf9js_jhaVg"/>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_KHxZUdm3Eeer66P4LkwRNQ" name="ReceiveOperationEvent9" operation="_d134QNmOEeeyf9js_jhaVg"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_xXXv8NtlEeeMoL-CgilKpA" name="interfaces">
-      <eAnnotations xmi:id="_xXhg8NtlEeeMoL-CgilKpA" source="uml2.diagrams" references="_xXhg8dtlEeeMoL-CgilKpA">
-        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_xXhg8dtlEeeMoL-CgilKpA" type="Freeform" name="Informations générales">
-          <element xsi:nil="true"/>
-        </contents>
-      </eAnnotations>
+      <eAnnotations xmi:id="_xXhg8NtlEeeMoL-CgilKpA" source="uml2.diagrams"/>
       <packagedElement xmi:type="uml:Interface" xmi:id="_0zwhwNdIEeeg1ZqXaVmWJQ" name="IAuthentification">
         <ownedOperation xmi:id="_3VdCcNdIEeeg1ZqXaVmWJQ" name="seConnecter">
           <ownedParameter xmi:id="_IhnXANdKEeeg1ZqXaVmWJQ" name="username">
@@ -4773,11 +4769,7 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_BLGucNtmEeeMoL-CgilKpA" name="deck">
-      <eAnnotations xmi:id="_BLGucdtmEeeMoL-CgilKpA" source="uml2.diagrams" references="_BLGucttmEeeMoL-CgilKpA">
-        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_BLGucttmEeeMoL-CgilKpA" type="Freeform" name="Informations générales">
-          <element xsi:nil="true"/>
-        </contents>
-      </eAnnotations>
+      <eAnnotations xmi:id="_BLGucdtmEeeMoL-CgilKpA" source="uml2.diagrams"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_mSJVsNtqEeePavp1awWLvA" name="GestDeck" clientDependency="_IWBAoNxQEeefsqimcRjSnw">
         <interfaceRealization xmi:id="_IWBAoNxQEeefsqimcRjSnw" name="implements" supplier="_7eHMsNjDEee71_g7eVtctw" client="_mSJVsNtqEeePavp1awWLvA" contract="_7eHMsNjDEee71_g7eVtctw"/>
       </packagedElement>
@@ -4791,11 +4783,7 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_NBzPoNtmEeeMoL-CgilKpA" name="carte">
-      <eAnnotations xmi:id="_NBzPodtmEeeMoL-CgilKpA" source="uml2.diagrams" references="_NBzPottmEeeMoL-CgilKpA">
-        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_NBzPottmEeeMoL-CgilKpA" type="Freeform" name="Informations générales">
-          <element xsi:nil="true"/>
-        </contents>
-      </eAnnotations>
+      <eAnnotations xmi:id="_NBzPodtmEeeMoL-CgilKpA" source="uml2.diagrams"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_DVkY8KnkEeefb59lDY5vmA" name="Carte">
         <ownedAttribute xmi:id="_ci4eILN1EeeBXN5LXPuCwQ" name="attaque" visibility="private">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
@@ -4859,11 +4847,7 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_bORf8NtnEeePavp1awWLvA" name="joueur">
-      <eAnnotations xmi:id="_bOUjQNtnEeePavp1awWLvA" source="uml2.diagrams" references="_bOUjQdtnEeePavp1awWLvA">
-        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_bOUjQdtnEeePavp1awWLvA" type="Freeform" name="Informations générales">
-          <element xsi:nil="true"/>
-        </contents>
-      </eAnnotations>
+      <eAnnotations xmi:id="_bOUjQNtnEeePavp1awWLvA" source="uml2.diagrams"/>
       <packagedElement xmi:type="uml:Enumeration" xmi:id="_j0Ic4LTjEeef7JT-d8nLMA" name="Etat">
         <ownedAttribute xmi:id="_4aJeoLTjEeef7JT-d8nLMA" name="joueur" visibility="private" type="_CMyL8KnkEeefb59lDY5vmA" association="_4aAUsLTjEeef7JT-d8nLMA">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4aJeorTjEeef7JT-d8nLMA" value="*"/>
@@ -4913,11 +4897,7 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_KaztUNtoEeePavp1awWLvA" name="collection">
-      <eAnnotations xmi:id="_Ka9eUNtoEeePavp1awWLvA" source="uml2.diagrams" references="_Ka9eUdtoEeePavp1awWLvA">
-        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Ka9eUdtoEeePavp1awWLvA" type="Freeform" name="Informations générales">
-          <element xsi:nil="true"/>
-        </contents>
-      </eAnnotations>
+      <eAnnotations xmi:id="_Ka9eUNtoEeePavp1awWLvA" source="uml2.diagrams"/>
       <packagedElement xmi:type="uml:Component" xmi:id="_gf7KUNtoEeePavp1awWLvA" name="CCollection" clientDependency="_tIOuoNtoEeePavp1awWLvA">
         <interfaceRealization xmi:id="_tIOuoNtoEeePavp1awWLvA" supplier="_tdAooNtkEeeMoL-CgilKpA" client="_gf7KUNtoEeePavp1awWLvA" contract="_tdAooNtkEeeMoL-CgilKpA"/>
       </packagedElement>
@@ -4931,11 +4911,7 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_tCWToNtpEeePavp1awWLvA" name="authentification">
-      <eAnnotations xmi:id="_tCWTodtpEeePavp1awWLvA" source="uml2.diagrams" references="_tCWTottpEeePavp1awWLvA">
-        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_tCWTottpEeePavp1awWLvA" type="Freeform" name="Informations générales">
-          <element xsi:nil="true"/>
-        </contents>
-      </eAnnotations>
+      <eAnnotations xmi:id="_tCWTodtpEeePavp1awWLvA" source="uml2.diagrams"/>
       <packagedElement xmi:type="uml:Component" xmi:id="_Uysq8NdGEeeg1ZqXaVmWJQ" name="CAuthentification" clientDependency="_VkbNcNtlEeeMoL-CgilKpA">
         <interfaceRealization xmi:id="_VkbNcNtlEeeMoL-CgilKpA" supplier="_0zwhwNdIEeeg1ZqXaVmWJQ" client="_Uysq8NdGEeeg1ZqXaVmWJQ" contract="_0zwhwNdIEeeg1ZqXaVmWJQ"/>
       </packagedElement>
@@ -4948,30 +4924,18 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_xv3LoNtpEeePavp1awWLvA" name="matchmaking">
-      <eAnnotations xmi:id="_xv3LodtpEeePavp1awWLvA" source="uml2.diagrams" references="_xv3LottpEeePavp1awWLvA">
-        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_xv3LottpEeePavp1awWLvA" type="Freeform" name="Informations générales">
-          <element xsi:nil="true"/>
-        </contents>
-      </eAnnotations>
+      <eAnnotations xmi:id="_xv3LodtpEeePavp1awWLvA" source="uml2.diagrams"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_UkdZkLN2EeeBXN5LXPuCwQ" name="Partie"/>
       <packagedElement xmi:type="uml:Component" xmi:id="_Sl74cNdGEeeg1ZqXaVmWJQ" name="CMatchmaking" clientDependency="_RQmdQNtkEeeMoL-CgilKpA">
         <interfaceRealization xmi:id="_RQmdQNtkEeeMoL-CgilKpA" supplier="_F63JcNm2Eeer66P4LkwRNQ" client="_Sl74cNdGEeeg1ZqXaVmWJQ" contract="_F63JcNm2Eeer66P4LkwRNQ"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_07s1gNtpEeePavp1awWLvA" name="ihm">
-      <eAnnotations xmi:id="_07s1gdtpEeePavp1awWLvA" source="uml2.diagrams" references="_07s1gttpEeePavp1awWLvA">
-        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_07s1gttpEeePavp1awWLvA" type="Freeform" name="Informations générales">
-          <element xsi:nil="true"/>
-        </contents>
-      </eAnnotations>
+      <eAnnotations xmi:id="_07s1gdtpEeePavp1awWLvA" source="uml2.diagrams"/>
       <packagedElement xmi:type="uml:Component" xmi:id="_i_93YNm2Eeer66P4LkwRNQ" name="CIHM"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_2xsGwNtpEeePavp1awWLvA" name="paiement">
-      <eAnnotations xmi:id="_2xsGwdtpEeePavp1awWLvA" source="uml2.diagrams" references="_2xsGwttpEeePavp1awWLvA">
-        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_2xsGwttpEeePavp1awWLvA" type="Freeform" name="Informations générales">
-          <element xsi:nil="true"/>
-        </contents>
-      </eAnnotations>
+      <eAnnotations xmi:id="_2xsGwdtpEeePavp1awWLvA" source="uml2.diagrams"/>
       <packagedElement xmi:type="uml:Component" xmi:id="_IUKGoNdGEeeg1ZqXaVmWJQ" name="CPaiement" clientDependency="_Qj-yYNtlEeeMoL-CgilKpA">
         <interfaceRealization xmi:id="_Qj-yYNtlEeeMoL-CgilKpA" supplier="_zHCPUNdKEeeg1ZqXaVmWJQ" client="_IUKGoNdGEeeg1ZqXaVmWJQ" contract="_zHCPUNdKEeeg1ZqXaVmWJQ"/>
       </packagedElement>
